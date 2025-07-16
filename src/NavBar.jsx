@@ -1,15 +1,17 @@
-import React from 'react';
+import './styles_navBar.css'
 
 export default function NavBar() {
   return (
     <div className="navbar">
-      <ul>
-        <li id="logo"><a href="#hero">{60}</a></li>
+      <ul className='contenido'>
+        <li id="logo"><a href="#hero">  60</a></li>
+        <div className="botones">
         <li><a href="#section_1">El reto</a></li>
         <li><a href="#section_1">Sobre mí</a></li>
         <li><a href="#section_1">Requisitos</a></li>
         <li><a href="#section_1">Ver proyectos</a></li>
         <li><a href="#Footer">Contacto</a></li>
+        </div>
       </ul>
     </div>
   );

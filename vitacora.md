@@ -147,3 +147,8 @@ npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-
 ```
 creamos archivo .babelrc
 
+# 1. Empezamos
+Comienzo con los componentes principales
+Instalo nodemon
+
+babel estaba interfiriendo y lo he quitado.
