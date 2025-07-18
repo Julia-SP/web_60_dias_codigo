@@ -1,0 +1,53 @@
+.carrusel-contenedor {
+
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrusel-slider {
+        mask-image: linear-gradient(to right, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 90%, transparent 100%);
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 16px;
+  margin-left: 16px; /* pequeño margen para que no se pegue al borde */
+}
+
+.carrusel-slider::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carrusel-slider:hover {
+  cursor: grab;
+}
+
+.items-carrusel {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 26px;
+}
+
+.items-carrusel > li {
+  flex: 0 0 auto;
+  width: 300px;
+  scroll-snap-align: start;
+}
+
+/* Este botón es opcional según lo uses */
+.carrusel-boton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 8px 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
