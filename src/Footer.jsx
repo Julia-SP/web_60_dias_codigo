@@ -9,8 +9,13 @@ function Footer() {
    <h4>¡Escríbeme y recibirás una sorpresa!</h4>
    <button>LinkedIn</button>
 
-   <h5>Hola, soy Julia Subiza, UX/UI Designer & Front-end Developer (en inglés suena mejor, sorry) y este es mi Github, Linkedin y Behance.
-</h5>
+    <h5 className='bio-footer'>
+      Hola, soy Julia Subiza, UX/UI Designer & Front-end Developer (en inglés suena mejor, sorry) y este es mi 
+      <a href="https://github.com/Julia-SP">Github </a>, 
+      <a href="https://www.linkedin.com/in/juliasubiza">LinkedIn </a> 
+      y <a href="https://www.behance.net/julia_subiza">Behance</a>.
+    </h5>
+
    </div>
     </div>
   );
