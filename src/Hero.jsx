@@ -11,12 +11,12 @@ export default function Hero() {
 
       <div className="logos">
         <ul>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
-            <li> <img src="./public/./public/LOGO_60_negro.svg" alt="logo" ></img></li>
+            <li> <img src="./public/logos_tools/api.svg" alt="logo" ></img></li>
+            <li> <img src="./public/logos_tools/css.svg" alt="logo" ></img></li>
+              <li> <img src="./public/logos_tools/html.svg" alt="logo" ></img></li>
+                <li> <img src="./public/logos_tools/js.svg" alt="logo" ></img></li>
+                  <li> <img src="./public/logos_tools/node.svg" alt="logo" ></img></li>
+                    <li> <img src="./public/logos_tools/react.svg" alt="logo" ></img></li>
            
         </ul>
       </div>
