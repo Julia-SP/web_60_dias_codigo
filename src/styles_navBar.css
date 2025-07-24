@@ -1,34 +1,32 @@
 .navbar {
   background-color: white;
-  margin: 0;
   position: sticky;
   top: 0;
-  align-items: center;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .contenido {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
-  padding: 0;
   align-items: center;
   justify-content: space-between;
+  list-style-type: none;
   margin: 0;
-  margin-left: 4rem;
-}
-.contenido img {
-  margin: 0;
-}
-.botones {
-  justify-content: space-between;
-  display: flex;
-  gap: 3rem;
-  flex-direction: row;
-  text-decoration: none;
-  margin-right: 18rem;
+  padding: 0 4rem;
+    gap: 2rem;
 }
 
-a {
+#logo {
+  margin-right: auto; /* empuja el resto hacia la derecha */
+}
+
+.boton-nav {
+  margin-left: 2rem;
+}
+
+.contenido a {
   text-decoration: none;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -36,11 +34,11 @@ a {
   color: black;
 }
 
-a:hover {
+.contenido a:hover {
   font-weight: bold;
 }
 
-a:active {
+.contenido a:active {
   font-weight: bold;
   color: var(--morado);
 }

@@ -8,7 +8,7 @@ export default function Section_1() {
       </div>
       <div id="texto-1">
         <p>
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse saepe, illum sunt aliquid odio quaerat alias labore veritatis, quam eveniet consequatur repudiandae debitis tenetur, possimus ipsa nemo nam soluta. Mollitia natus asperiores saepe eligendi animi quaerat perspiciatis molestiae! Tempore, dignissimos!
+         Aprender a programar no es fácil, pero practicar todos los días puede marcar la diferencia. El “Reto 60 Días de Código”, inspirado en la iniciativa de Matías Cukier, propone construir un proyecto diario, empezando por lo más básico y aumentando poco a poco la dificultad. Es una forma práctica, entretenida y efectiva de mejorar tus habilidades. Si estás aprendiendo a programar o quieres reforzar tus conocimientos, este reto es para ti. <strong>¡Anímate a intentarlo!</strong>
         </p>
       </div>
     </div>

@@ -4,8 +4,26 @@ body{
     margin:0;
     margin-top: 0;
 
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
  --morado :#AD89FB
+}
+
+
+#container-sec1,
+#container-sec2,
+.container-footer {
+  height: 100vh; 
+  width: 100vw;
+  scroll-snap-align: start;
 }

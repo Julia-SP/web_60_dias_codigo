@@ -1,53 +1,65 @@
-.carrusel-contenedor {
+.tarjeta {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.07), 0 1.5px 6px rgba(60,60,60,0.04);
+  padding: 24px 16px 16px 16px;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px auto;
+}
 
+.cuadrado {
+  background: #c8d3c1;
+  border-radius: 10px;
   width: 100%;
-  overflow: hidden;
-  position: relative;
+  height: 120px;
+  margin-bottom: 8px;
 }
 
-.carrusel-slider {
-        mask-image: linear-gradient(to right, black 90%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, black 90%, transparent 100%);
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding-bottom: 16px;
-  margin-left: 16px; /* pequeño margen para que no se pegue al borde */
+h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.carrusel-slider::-webkit-scrollbar {
-  height: 8px;
+h5 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
 }
 
-.carrusel-slider:hover {
-  cursor: grab;
+p {
+  font-size: 16px;
+  color: #222;
+  margin: 0 0 12px 0;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
 }
 
-.items-carrusel {
-  display: flex;
+.iconos-lenguajes ul {
   list-style: none;
+  display: flex;
+  gap: 3px;
   padding: 0;
   margin: 0;
-  gap: 26px;
+
 }
 
-.items-carrusel > li {
-  flex: 0 0 auto;
-  width: 300px;
-  scroll-snap-align: start;
-}
-
-/* Este botón es opcional según lo uses */
-.carrusel-boton {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  padding: 8px 12px;
-  background: #000;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+.iconos-lenguajes li {
+  border: 2px solid #222;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #fff;
+  color: #222;
+  letter-spacing: 1px;
 }

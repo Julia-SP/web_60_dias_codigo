@@ -19,6 +19,7 @@ text-align: center;
 #subtitulo-sec1 {
   flex: 1;
   min-width: 200px;
+
 }
 
 #subtitulo-sec1 h3 {
@@ -37,10 +38,16 @@ p {
   text-align: justify;
 }
 
+#container-sec1{
+height: 400px;
+background-color: rgb(203, 203, 203);
+margin-bottom: 15px;
+margin-top: 15px;
+width: 100vw;
+}
 
 
-
-#conatiner-sec2{
+#container-sec2{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,23 +55,3 @@ p {
   margin-left: 20px;
 }
 
-
-
-/* Responsive: una columna debajo de 600px */
-@media (max-width: 600px) {
-  #container-sec1 {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  #subtitulo-sec1,
-  #texto-1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  #subtitulo-sec1 h3 {
-    text-align: center;
-  }
-}
