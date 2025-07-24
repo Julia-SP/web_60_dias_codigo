@@ -1,21 +1,32 @@
-import './styles_Carrusel_tarjetas.css';
-import Tarjeta_reto from './Tarjeta_reto';
-import data_retos from '../data/data_retos';
+import './styles_tarjeta_reto.css';
 
-export default function Carrusel_tarjetas() {
+//falta añadir la dificultad
+export default function Tarjeta_reto({ numero, nombre, descripcion, lenguajes = [], dificultad }) {
   return (
-    <div className="carrusel-tarjetas">
-      {data_retos.map((reto) => (
-        <Tarjeta_reto
-          key={reto.id}
-          numero={reto.numero}
-          nombre={reto.nombre}
-          descripcion={reto.descripcion}
-          lenguajes={reto.lenguajes}
-          dificultad={reto.dificultad}
-        />
-      ))}
+    <div className="tarjeta">
+      <div className="cuadrado"></div>
+      <h6>{numero}</h6>
+      <h5>{nombre}</h5>
+      <p>{dificultad}</p>
+      <p>{descripcion}</p>
+      <div className="iconos-lenguajes">
+        <ul>
+          {lenguajes.map((lenguaje, i) => (
+            <li key={i}>{lenguaje}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
 
+
+import PropTypes from 'prop-types';
+
+Tarjeta_reto.propTypes = {
+  numero: PropTypes.number.isRequired,
+  nombre: PropTypes.string.isRequired,
+  descripcion: PropTypes.string.isRequired,
+  dificultad: PropTypes.number.isRequired,
+  lenguajes: PropTypes.arrayOf(PropTypes.string)
+};
