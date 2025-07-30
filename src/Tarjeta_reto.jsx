@@ -1,23 +1,28 @@
 import './styles_tarjeta_reto.css';
 
-//falta añadir la dificultad
-export default function Tarjeta_reto({ numero, nombre, descripcion, lenguajes = [] }) {
+export default function Tarjeta_reto({ numero, imagen, nombre, descripcion, lenguajes = [] }) {
   return (
     <div className="tarjeta">
-      <div className="cuadrado"></div>
-      <h6>{numero}</h6>
-      <h5>{nombre}</h5>
-      <p>{descripcion}</p>
-      <div className="iconos-lenguajes">
-        <ul>
-          {lenguajes.map((lenguaje, i) => (
-            <li key={i}>{lenguaje}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
+  <div className="imagen-contenedor">
+    <img src={imagen} className="foto-tarjeta" />
+  </div>
+  <div className="contenido-tarjeta">
+  <h6>{numero}</h6>
+  <h5>{nombre}</h5>
+  <p>{descripcion}</p>
+  <div className="iconos-lenguajes">
+    <ul>
+      {lenguajes.map((lenguaje, i) => (
+        <li key={i}>{lenguaje}</li>
+      ))}
+    </ul>
+  </div>
+  </div>
+</div>
+
   );
 }
+
 
 
 import PropTypes from 'prop-types';

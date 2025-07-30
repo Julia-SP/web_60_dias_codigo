@@ -75,7 +75,7 @@ button:hover {
   transform: translateY(-3px);
 }
 
-img {
+.logo-footer {
   padding: 20px;
   margin-left: 20px;
 }
