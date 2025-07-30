@@ -54,12 +54,18 @@ p {
 }
 
 .iconos-lenguajes li {
-  border: 2px solid #222;
+  border: 2px solid var(--negro);
   border-radius: 20px;
   padding: 4px 12px;
   font-size: 15px;
   font-weight: 600;
-  background: #fff;
-  color: #222;
+  background:var(--blanco);
+  color:var(--negro);
   letter-spacing: 1px;
+}
+.galeria-retos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px;
 }

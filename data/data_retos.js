@@ -3,7 +3,7 @@ const data_retos = [
     id: 1,
     numero: 1,
     nombre: 'Página de presentación',
-    descripcion_corta:
+    descripcion:
       'Landing page atractiva y responsive que presente el reto, explica sus fases, y enlazalo a tus redes profesionales.',
     explicacion_ejercicio:
       'Crea una landing page que sirva como tarjeta de visita online. Incluye tu nombre, una breve bio, motivaciones,fases del reto y enlaces a redes profesionales. Usa HTML, CSS Flex/Grid y media queries para que sea responsive para. Plus: Agrega animaciones suaves al hover en los botones.',
@@ -22,7 +22,7 @@ const data_retos = [
     id: 2,
     numero: 2,
     nombre: 'Calculadora básica',
-    descripcion_corta: 'Calculadora funcional para operaciones básicas (suma, resta, mult., div.).',
+    descripcion: 'Calculadora funcional para operaciones básicas (suma, resta, mult., div.).',
     explicacion_ejercicio:
       'Construye una calculadora que realice operaciones básicas. Implementa un componente visual con botones, cálculo mediante eventos, control de errores como división por cero y reset.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -39,7 +39,7 @@ const data_retos = [
     id: 3,
     numero: 3,
     nombre: 'Generador de color aleatorio',
-    descripcion_corta: 'Genera y muestra un color aleatorio en pantalla con su código hexadecimal.',
+    descripcion: 'Genera y muestra un color aleatorio en pantalla con su código hexadecimal.',
     explicacion_ejercicio:
       'Implementa un botón que genere un color hexadecimal aleatorio y lo aplique al fondo. Muestra el código y añade un botón para copiarlo al portapapeles.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -57,7 +57,7 @@ const data_retos = [
     id: 4,
     numero: 4,
     nombre: 'Conversor de divisas',
-    descripcion_corta: 'Crea un conversor para todas las divisas del mundo con una API',
+    descripcion: 'Crea un conversor para todas las divisas del mundo con una API',
     explicacion_ejercicio:
       'Crea campos de cantidad y selects para monedas. utiliza la API gratuita ExChangeRate-API para conseguir todos los datos necesarios que necesitas',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -69,7 +69,7 @@ const data_retos = [
     id: 5,
     numero: 5,
     nombre: 'Lista de tareas',
-    descripcion_corta: 'App to‑do que guarda tareas en localStorage y las recupera al recargar.',
+    descripcion: 'App to‑do que guarda tareas en localStorage y las recupera al recargar.',
     explicacion_ejercicio:
       'Implementa añadir, marcar como completada y borrar tareas. Persiste el array en localStorage y recupéralo al recargar. Crea un contador de tareas pendientes.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -82,7 +82,7 @@ const data_retos = [
     id: 6,
     numero: 6,
     nombre: 'Validación de formularios',
-    descripcion_corta: 'Form con validaciones JS: email, contraseña, required.',
+    descripcion: 'Form con validaciones JS: email, contraseña, required.',
     explicacion_ejercicio:
       'Crea un formulario con campos como email, password, nombre... Implementa validaciones por regex, mensajes de error y bloqueo de envío si hay errores. Resalta los campos inválidos.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -95,7 +95,7 @@ const data_retos = [
     id: 7,
     numero: 7,
     nombre: 'Piedra, papel o tijeras',
-    descripcion_corta: 'Juego interactivo para jugar contra tu ordenador.',
+    descripcion: 'Juego interactivo para jugar contra tu ordenador.',
     explicacion_ejercicio:
       'Implementa botones para las opciones. Genera elección aleatoria para la máquina, muestra el resultado y lleva un marcador de ronda. Añade animaciones o efectos al fallo/éxito.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -108,7 +108,7 @@ const data_retos = [
     id: 8,
     numero: 8,
     nombre: 'Galería de imágenes con filtro',
-    descripcion_corta: 'Muestra varias imágenes con botones para filtrar categorías.',
+    descripcion: 'Muestra varias imágenes con botones para filtrar categorías.',
     explicacion_ejercicio:
       'Carga un array de imágenes con categorías. Genera dinamicamente las cards. Añade botones que filtren por categoría mostrando solo las correspondientes.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -121,7 +121,7 @@ const data_retos = [
     id: 9,
     numero: 9,
     nombre: 'Carrusel (slider)',
-    descripcion_corta: 'Slider de imágenes con botones de anterior/siguiente.',
+    descripcion: 'Slider de imágenes con botones de anterior/siguiente.',
     explicacion_ejercicio:
       'Crea un slider con flechas prev/next y paginación. Cambia la imagen actual con animación CSS/JS. Añade autoplay con pausa al hover.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -134,7 +134,7 @@ const data_retos = [
     id: 10,
     numero: 10,
     nombre: 'Generador de contraseñas',
-    descripcion_corta: 'Crea contraseñas seguras con opciones de longitud y tipos de caracteres.',
+    descripcion: 'Crea contraseñas seguras con opciones de longitud y tipos de caracteres.',
     explicacion_ejercicio:
       'Permite elegir longitud y tipos de caracteres. Genera la contraseña aleatoria y opción para copiarla. Muestra nivel de seguridad según entropía.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -146,7 +146,7 @@ const data_retos = [
     id: 11,
     numero: 11,
     nombre: 'Progress Bar Animation',
-    descripcion_corta: 'Barra que se llena dinámicamente al hacer click o scroll.',
+    descripcion: 'Barra que se llena dinámicamente al hacer click o scroll.',
     explicacion_ejercicio:
       'Crea una barra que se llene según el progreso (click o scroll). Controla porcentaje y agrega animaciones CSS (ease, transitions), así como reset opcional.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -158,7 +158,7 @@ const data_retos = [
     id: 12,
     numero: 12,
     nombre: 'Landing Page Clone',
-    descripcion_corta: 'Replica una landing page popular (Bootstrap/Tailwind…)',
+    descripcion: 'Replica una landing page popular (Bootstrap/Tailwind…)',
     explicacion_ejercicio:
       'Clona visualmente una landing existente, con navbar, secciones, footer, galería o testimonios. Asegura responsividad.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -170,7 +170,7 @@ const data_retos = [
     id: 13,
     numero: 13,
     nombre: 'App del clima (API)',
-    descripcion_corta: 'Busca y muestra el clima actual usando una API.',
+    descripcion: 'Busca y muestra el clima actual usando una API.',
     explicacion_ejercicio:
       'Usa OpenWeatherMap: pide clima por ciudad, muestra temperatura, icono, descripción, humedad, viento. Añade loader y manejo de errores.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -182,7 +182,7 @@ const data_retos = [
     id: 14,
     numero: 14,
     nombre: 'Movie App (API)',
-    descripcion_corta: 'Consulta películas usando una API y muestra detalles.',
+    descripcion: 'Consulta películas usando una API y muestra detalles.',
     explicacion_ejercicio:
       'Consume TMDB API: busca por nombre de película, muestra posters, título, rating, sinopsis y detalle en un modal o página.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -194,7 +194,7 @@ const data_retos = [
     id: 15,
     numero: 15,
     nombre: 'Pokedex (API)',
-    descripcion_corta: 'Muestra datos de Pokémon usando PokéAPI.',
+    descripcion: 'Muestra datos de Pokémon usando PokéAPI.',
     explicacion_ejercicio:
       'Consume PokéAPI: muestra lista de pokémons con imagen, nombre y tipo; admite paginación o buscador. Detalle al hacer click.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -206,7 +206,7 @@ const data_retos = [
     id: 16,
     numero: 16,
     nombre: 'Image Search (API)',
-    descripcion_corta: 'Busca imágenes vía API (Unsplash, Pexels).',
+    descripcion: 'Busca imágenes vía API (Unsplash, Pexels).',
     explicacion_ejercicio:
       'Usa Unsplash API para buscar imágenes. Muestra grilla responsive; añade carga más y lazy‑load.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -218,7 +218,7 @@ const data_retos = [
     id: 17,
     numero: 17,
     nombre: 'News App (API)',
-    descripcion_corta: 'Mostrar titulares de noticias usando API.',
+    descripcion: 'Mostrar titulares de noticias usando API.',
     explicacion_ejercicio:
       'Consume NewsAPI: selecciona categoría, muestra titulares, imagen y enlace. Agrega paginación.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -230,7 +230,7 @@ const data_retos = [
     id: 18,
     numero: 18,
     nombre: 'Random Quote Generator',
-    descripcion_corta: 'Genera frases célebres desde una API.',
+    descripcion: 'Genera frases célebres desde una API.',
     explicacion_ejercicio:
       'Usa API tipo Quotable: genera frases + autora al pulsar botón. Agrega animación fade y posibilidad de tweet.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -242,7 +242,7 @@ const data_retos = [
     id: 19,
     numero: 19,
     nombre: 'Recipe Finder (API)',
-    descripcion_corta: 'Busca recetas y muestra ingredientes e imágenes.',
+    descripcion: 'Busca recetas y muestra ingredientes e imágenes.',
     explicacion_ejercicio:
       'Consume Edamam o Spoonacular: busca recetas, muestra imagen, ingredientes, tiempo. Modal detalle con instrucciones.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -254,7 +254,7 @@ const data_retos = [
     id: 20,
     numero: 20,
     nombre: 'Trivia Game (API)',
-    descripcion_corta: 'Juego de trivial usando preguntas de API.',
+    descripcion: 'Juego de trivial usando preguntas de API.',
     explicacion_ejercicio:
       'Usa Open Trivia DB: muestra pregunta y opciones mezcladas. Lleva puntuación, feedback y reinicio.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -266,7 +266,7 @@ const data_retos = [
     id: 21,
     numero: 21,
     nombre: 'QR Code Generator',
-    descripcion_corta: 'Genera un código QR para el texto o URL ingresado.',
+    descripcion: 'Genera un código QR para el texto o URL ingresado.',
     explicacion_ejercicio:
       'Usa QRCode.js: lector genera código, permite descargar o copiar. Valida entrada.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -278,7 +278,7 @@ const data_retos = [
     id: 22,
     numero: 22,
     nombre: 'E‑commerce Product Page',
-    descripcion_corta: 'Muestra producto con imagen, descripción, precio y variantes.',
+    descripcion: 'Muestra producto con imagen, descripción, precio y variantes.',
     explicacion_ejercicio:
       'Crea página con carousel de imágenes, selección de variante, precio dinámico, botón de añadir al carrito.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -290,7 +290,7 @@ const data_retos = [
     id: 23,
     numero: 23,
     nombre: 'Chatbot (API)',
-    descripcion_corta: 'Chatbot simple usando una API pública.',
+    descripcion: 'Chatbot simple usando una API pública.',
     explicacion_ejercicio:
       'Usa API tipo OpenAI o Bot libre: crea interfaz de chat, envía mensajes y muestra respuestas.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -302,7 +302,7 @@ const data_retos = [
     id: 24,
     numero: 24,
     nombre: 'Google Translate Clone (API)',
-    descripcion_corta: 'Traduce texto entre idiomas usando una API.',
+    descripcion: 'Traduce texto entre idiomas usando una API.',
     explicacion_ejercicio:
       'Consume Google Translate o LibreTranslate API: textarea entrada/salida, select idioma, botón traducir.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -314,7 +314,7 @@ const data_retos = [
     id: 25,
     numero: 25,
     nombre: 'Crypto Tracker (API)',
-    descripcion_corta: 'Muestra precios de criptos en tiempo real.',
+    descripcion: 'Muestra precios de criptos en tiempo real.',
     explicacion_ejercicio:
       'Consulta CoinGecko API: muestra lista de criptos, precio, cambio %, con refresco automático.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -326,7 +326,7 @@ const data_retos = [
     id: 26,
     numero: 26,
     nombre: 'Dashboard interactivo (Chart.js)',
-    descripcion_corta: 'Visualiza datos con gráficos dinámicos.',
+    descripcion: 'Visualiza datos con gráficos dinámicos.',
     explicacion_ejercicio:
       'Usa Chart.js: crea gráfico de barras, lineas o dona. Permite cambiar datos con botones.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
@@ -338,7 +338,7 @@ const data_retos = [
     id: 27,
     numero: 27,
     nombre: 'Auth con Firebase',
-    descripcion_corta: 'Registro/login de usuarios con Firebase Authentication.',
+    descripcion: 'Registro/login de usuarios con Firebase Authentication.',
     explicacion_ejercicio:
       'Configura Firebase, crea formularios de registro y login. Maneja sesión y protegé rutas de usuario.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
@@ -350,7 +350,7 @@ const data_retos = [
     id: 28,
     numero: 28,
     nombre: 'Drag & Drop Task Manager',
-    descripcion_corta: 'Organiza tarjetas moviéndolas entre columnas.',
+    descripcion: 'Organiza tarjetas moviéndolas entre columnas.',
     explicacion_ejercicio:
       'Crea tableros con columnas y tareas. Usa API de Drag & Drop nativo para mover tarjetas.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -362,7 +362,7 @@ const data_retos = [
     id: 29,
     numero: 29,
     nombre: 'Animated Landing Page',
-    descripcion_corta: 'Landing con animaciones e interactividad.',
+    descripcion: 'Landing con animaciones e interactividad.',
     explicacion_ejercicio:
       'Agrega animaciones (scroll, hover) con IntersectionObserver y CSS Animations. Incluye imágenes, efectos.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
@@ -374,7 +374,7 @@ const data_retos = [
     id: 30,
     numero: 30,
     nombre: 'Task App con Firebase (CRUD)',
-    descripcion_corta: 'App de tareas usando Firebase como base de datos.',
+    descripcion: 'App de tareas usando Firebase como base de datos.',
     explicacion_ejercicio:
       'Registra tareas en Firestore: añade, edita, elimina y lista tareas en tiempo real.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
@@ -386,7 +386,7 @@ const data_retos = [
     id: 31,
     numero: 31,
     nombre: 'To‑Do List (React)',
-    descripcion_corta: 'Lista de tareas hecha con React.',
+    descripcion: 'Lista de tareas hecha con React.',
     explicacion_ejercicio:
       'Crea componente ToDo con estado, inputs y botones. Permite marcar completadas y borrar.',
     lenguajes: ['React', 'CSS', 'JavaScript'],
@@ -398,7 +398,7 @@ const data_retos = [
     id: 32,
     numero: 32,
     nombre: 'Weather App (React + API)',
-    descripcion_corta: 'App de clima en React consumiendo API.',
+    descripcion: 'App de clima en React consumiendo API.',
     explicacion_ejercicio:
       'Crea componentes de entrada, vista de clima y loader. Fetch a OpenWeatherMap y muestra datos.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'API'],
@@ -410,7 +410,7 @@ const data_retos = [
     id: 33,
     numero: 33,
     nombre: 'Movie Search App (React + API)',
-    descripcion_corta: 'Busca y muestra películas en React.',
+    descripcion: 'Busca y muestra películas en React.',
     explicacion_ejercicio:
       'Consulta TMDB en un componente React, muestra lista y permite ver detalles.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'API'],
@@ -422,7 +422,7 @@ const data_retos = [
     id: 34,
     numero: 34,
     nombre: 'CRUD App (React + LocalStorage)',
-    descripcion_corta: 'Operaciones CRUD en React, datos en LocalStorage.',
+    descripcion: 'Operaciones CRUD en React, datos en LocalStorage.',
     explicacion_ejercicio:
       'Permite crear, mostrar, editar y eliminar datos con React y persistencia local.',
     lenguajes: ['React', 'CSS', 'JavaScript'],
@@ -434,7 +434,7 @@ const data_retos = [
     id: 35,
     numero: 35,
     nombre: 'Blog App (React + Firebase)',
-    descripcion_corta: 'Gestión de posts con React y Firebase.',
+    descripcion: 'Gestión de posts con React y Firebase.',
     explicacion_ejercicio:
       'CRUD posts: título, contenido, listado y detalle, usando Firebase como backend.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'Firebase'],
@@ -446,7 +446,7 @@ const data_retos = [
     id: 36,
     numero: 36,
     nombre: 'Task Manager (React + Node.js)',
-    descripcion_corta: 'Gestor de tareas con backend en Node.',
+    descripcion: 'Gestor de tareas con backend en Node.',
     explicacion_ejercicio:
       'React frontend que consume API en Node.js para crear tareas, listarlas y eliminarlas.',
     lenguajes: ['React', 'Node.js', 'Express', 'CSS'],
@@ -458,7 +458,7 @@ const data_retos = [
     id: 37,
     numero: 37,
     nombre: 'JWT Auth (Node + React)',
-    descripcion_corta: 'Autenticación con JSON Web Tokens.',
+    descripcion: 'Autenticación con JSON Web Tokens.',
     explicacion_ejercicio:
       'Backend en Node: registro/login con JWT; frontend React: forms, protected routes, token en localStorage.',
     lenguajes: ['React', 'Node.js', 'Express', 'JWT'],
@@ -470,7 +470,7 @@ const data_retos = [
     id: 38,
     numero: 38,
     nombre: 'Real‑time Chat (WebSockets + Node.js)',
-    descripcion_corta: 'Chat en tiempo real con websockets.',
+    descripcion: 'Chat en tiempo real con websockets.',
     explicacion_ejercicio:
       'Backend con Socket.io, frontend conectado, mensajes emitidos y recibidos en tiempo real.',
     lenguajes: ['JavaScript', 'Node.js', 'Socket.io'],
@@ -482,7 +482,7 @@ const data_retos = [
     id: 39,
     numero: 39,
     nombre: 'E‑commerce Store (React + API)',
-    descripcion_corta: 'Tienda online con React y backend (mock).',
+    descripcion: 'Tienda online con React y backend (mock).',
     explicacion_ejercicio:
       'Muestra lista de productos, detalles y carrito (solo UI/backend simulado).',
     lenguajes: ['React', 'CSS', 'JavaScript'],
@@ -494,7 +494,7 @@ const data_retos = [
     id: 40,
     numero: 40,
     nombre: 'Stripe Payment Integration',
-    descripcion_corta: 'Implementa pago con Stripe en tu proyecto web.',
+    descripcion: 'Implementa pago con Stripe en tu proyecto web.',
     explicacion_ejercicio:
       'Integra Stripe Checkout/Elements con backend en Node y frontend en React o JS.',
     lenguajes: ['JavaScript', 'Node.js', 'React', 'Stripe API'],
@@ -506,7 +506,7 @@ const data_retos = [
     id: 41,
     numero: 41,
     nombre: 'Redux Intro (React + Redux)',
-    descripcion_corta: 'Global state management con Redux en React.',
+    descripcion: 'Global state management con Redux en React.',
     explicacion_ejercicio:
       'Configura redux store, actions, reducers; integra con React usando hooks redux.',
     lenguajes: ['React', 'Redux', 'JavaScript', 'CSS'],
@@ -518,7 +518,7 @@ const data_retos = [
     id: 42,
     numero: 42,
     nombre: 'Admin Dashboard (React + API)',
-    descripcion_corta: 'Panel de administración con gráficos y tablas.',
+    descripcion: 'Panel de administración con gráficos y tablas.',
     explicacion_ejercicio:
       'Crea dashboard con Chart.js o Recharts: muestra gráficos de datos fetch, tablas paginadas.',
     lenguajes: ['React', 'JavaScript', 'Chart.js', 'CSS'],
@@ -530,7 +530,7 @@ const data_retos = [
     id: 43,
     numero: 43,
     nombre: 'Clone Twitter UI (React)',
-    descripcion_corta: 'Interfaz tipo Twitter con React y CSS.',
+    descripcion: 'Interfaz tipo Twitter con React y CSS.',
     explicacion_ejercicio:
       'Reproduce el UI: feeds, tweets, sidebar y navbar. No hace falta backend.',
     lenguajes: ['React', 'CSS'],
@@ -542,7 +542,7 @@ const data_retos = [
     id: 44,
     numero: 44,
     nombre: 'Spotify Clone (React + API)',
-    descripcion_corta: 'Muestra música de una API como Spotify.',
+    descripcion: 'Muestra música de una API como Spotify.',
     explicacion_ejercicio:
       'Usa Spotify API: lista playlists o tracks, muestra portada, artist, play button dummy.',
     lenguajes: ['React', 'JavaScript', 'API'],
@@ -554,7 +554,7 @@ const data_retos = [
     id: 45,
     numero: 45,
     nombre: 'Full‑stack CRUD (React + Node)',
-    descripcion_corta: 'App completa con creación, lectura, actualización y borrado.',
+    descripcion: 'App completa con creación, lectura, actualización y borrado.',
     explicacion_ejercicio:
       'Backend Node/Express con endpoints CRUD, frontend React que consuma API y muestre formulario y tablas.',
     lenguajes: ['React', 'Node.js', 'Express', 'CSS'],
@@ -566,7 +566,7 @@ const data_retos = [
     id: 46,
     numero: 46,
     nombre: 'REST API (Node.js + Express)',
-    descripcion_corta: 'Desarrolla una API REST completa.',
+    descripcion: 'Desarrolla una API REST completa.',
     explicacion_ejercicio:
       'Crea rutas GET, POST, PUT, DELETE para recurso (por ejemplo, productos). Usa middleware, validación y MongoDB o array.',
     lenguajes: ['Node.js', 'Express', 'JavaScript'],
@@ -578,7 +578,7 @@ const data_retos = [
     id: 47,
     numero: 47,
     nombre: 'React + REST API',
-    descripcion_corta: 'Frontend en React consumiendo tu propia API.',
+    descripcion: 'Frontend en React consumiendo tu propia API.',
     explicacion_ejercicio:
       'Consume la API del reto anterior: lista items, crea items, borra, edita. Usa axios o fetch y estado. ',
     lenguajes: ['React', 'JavaScript', 'CSS'],
@@ -590,7 +590,7 @@ const data_retos = [
     id: 48,
     numero: 48,
     nombre: 'Forum App (React + Node + DB)',
-    descripcion_corta: 'Foro de discusión con backend y frontend.',
+    descripcion: 'Foro de discusión con backend y frontend.',
     explicacion_ejercicio:
       'Modelo usuarios/post: backend con CRUD de topics y mensajes. Frontend con creación y listados.',
     lenguajes: ['React', 'Node.js', 'Express', 'MongoDB'],
@@ -602,7 +602,7 @@ const data_retos = [
     id: 49,
     numero: 49,
     nombre: 'Redux en proyecto',
-    descripcion_corta: 'Añade Redux a una app existente.',
+    descripcion: 'Añade Redux a una app existente.',
     explicacion_ejercicio:
       'Integra Redux en una app React que ya existe (ej. e‑commerce o blog). Refactor estado global.',
     lenguajes: ['React', 'Redux', 'JavaScript'],
@@ -614,7 +614,7 @@ const data_retos = [
     id: 50,
     numero: 50,
     nombre: 'Trello Clone (Drag & Drop)',
-    descripcion_corta: 'Tablero drag & drop tipo Trello con React.',
+    descripcion: 'Tablero drag & drop tipo Trello con React.',
     explicacion_ejercicio:
       'Crea columnas y tarjetas que puedan moverse entre columnas con react-beautiful-dnd o nativo.',
     lenguajes: ['React', 'JavaScript', 'CSS'],
@@ -626,7 +626,7 @@ const data_retos = [
     id: 51,
     numero: 51,
     nombre: 'Real‑time Chat App (React + Firebase)',
-    descripcion_corta: 'Chat completo en tiempo real usando Firebase.',
+    descripcion: 'Chat completo en tiempo real usando Firebase.',
     explicacion_ejercicio:
       'Autenticación con Firebase Auth, mensajes guardados en Firestore, chat en tiempo real con UI actualizada.',
     lenguajes: ['React', 'Firebase', 'JavaScript', 'CSS'],
@@ -638,7 +638,7 @@ const data_retos = [
     id: 52,
     numero: 52,
     nombre: 'OAuth Login (Google/GitHub)',
-    descripcion_corta: 'Iniciar sesión usando terceros (OAuth).',
+    descripcion: 'Iniciar sesión usando terceros (OAuth).',
     explicacion_ejercicio:
       'Implementa login con Google/GitHub usando Firebase Auth o Passport.js. Maneja redirecciones y tokens.',
     lenguajes: ['JavaScript', 'Firebase', 'Node.js', 'React'],
@@ -650,7 +650,7 @@ const data_retos = [
     id: 53,
     numero: 53,
     nombre: 'Multi‑Role User Dashboard',
-    descripcion_corta: 'Dashboard con roles de usuario (admin y user).',
+    descripcion: 'Dashboard con roles de usuario (admin y user).',
     explicacion_ejercicio:
       'Define roles; protege rutas; muestra diferentes vistas según rol (admin verá más opciones que user).',
     lenguajes: ['React', 'Node.js', 'Express', 'JWT'],
@@ -662,7 +662,7 @@ const data_retos = [
     id: 54,
     numero: 54,
     nombre: 'WebSockets en proyecto',
-    descripcion_corta: 'Agrega actualizaciones en tiempo real a una app.',
+    descripcion: 'Agrega actualizaciones en tiempo real a una app.',
     explicacion_ejercicio:
       'Añade funcionalidad push (nuevos datos, notificaciones) usando Socket.io entre Node.js y frontend.',
     lenguajes: ['JavaScript', 'Node.js', 'Socket.io', 'React'],
@@ -674,7 +674,7 @@ const data_retos = [
     id: 55,
     numero: 55,
     nombre: 'E‑commerce Cart (React + Redux + Node)',
-    descripcion_corta: 'Carrito de compras con backend, React y Redux.',
+    descripcion: 'Carrito de compras con backend, React y Redux.',
     explicacion_ejercicio:
       'Añade productos al carrito; guarda estado global con Redux; backend con sessions o en DB; confirma órdenes.',
     lenguajes: ['React', 'Redux', 'Node.js', 'Express'],
@@ -686,7 +686,7 @@ const data_retos = [
     id: 56,
     numero: 56,
     nombre: 'Netflix Clone (React + API)',
-    descripcion_corta: 'Interfaz tipo Netflix con React y consumo de API.',
+    descripcion: 'Interfaz tipo Netflix con React y consumo de API.',
     explicacion_ejercicio:
       'Consume API de películas; muestra secciones como Trending, Top Rated; carruseles con slick o swiper.',
     lenguajes: ['React', 'JavaScript', 'API', 'CSS'],
@@ -698,7 +698,7 @@ const data_retos = [
     id: 57,
     numero: 57,
     nombre: 'Sales App (Node.js + MongoDB)',
-    descripcion_corta: 'Gestión de ventas, productos y clientes.',
+    descripcion: 'Gestión de ventas, productos y clientes.',
     explicacion_ejercicio:
       'Backend con rutas para ventas/productos/clientes en MongoDB; frontend para ver crear y listar ventas.',
     lenguajes: ['Node.js', 'Express', 'MongoDB', 'JavaScript'],
@@ -710,7 +710,7 @@ const data_retos = [
     id: 58,
     numero: 58,
     nombre: 'Event Calendar App',
-    descripcion_corta: 'Calendario de eventos con React y backend.',
+    descripcion: 'Calendario de eventos con React y backend.',
     explicacion_ejercicio:
       'Frontend con calendario interactivo, backend CRUD para eventos. Permite añadir/editar eventos.',
     lenguajes: ['React', 'Node.js', 'MongoDB'],
@@ -722,7 +722,7 @@ const data_retos = [
     id: 59,
     numero: 59,
     nombre: 'Online Course Platform',
-    descripcion_corta: 'Plataforma de cursos con gestión de contenido.',
+    descripcion: 'Plataforma de cursos con gestión de contenido.',
     explicacion_ejercicio:
       'Frontend curso catálogo, detalles, login; backend con contenido de curso, progreso por usuario.',
     lenguajes: ['React', 'Node.js', 'MongoDB', 'JavaScript'],
@@ -734,7 +734,7 @@ const data_retos = [
     id: 60,
     numero: 60,
     nombre: 'Final Project Showcase',
-    descripcion_corta: 'Proyecto completo full‑stack: despliegue y portfolio.',
+    descripcion: 'Proyecto completo full‑stack: despliegue y portfolio.',
     explicacion_ejercicio:
       'Desarrolla un proyecto que combine frontend (React o JS), backend, base de datos, autenticación y despliegue (Heroku/Netlify). Añade README y portafolio.',
     lenguajes: ['React', 'Node.js', 'MongoDB', 'CSS', 'JavaScript'],
