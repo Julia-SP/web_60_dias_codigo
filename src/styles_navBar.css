@@ -36,6 +36,7 @@
 
 .contenido a:hover {
   font-weight: bold;
+  color: var(--morado)
 }
 
 .contenido a:active {

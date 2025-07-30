@@ -7,7 +7,7 @@ export default function Hero() {
       <h1>Reto 60 días <br>
       </br>de código</h1>
       <button id='ver-proyectos'>Ver proyectos</button>
-      <h4>Practica y aprende JavaScript, HTML, CSS a través de proyectos</h4>
+      <h4>Practica y aprende JavaScript, HTML, CSS, React, APIs y mucho más a través de proyectos</h4>
 
       <div className="logos">
         <ul>

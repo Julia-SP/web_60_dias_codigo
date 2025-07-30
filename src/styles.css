@@ -16,12 +16,15 @@ html {
 }
 
 :root {
- --morado :#AD89FB
+ --morado :#AD89FB;
+ --blanco : #fefdfa;
+ --negro : #060606;
+ --naranja :#FFA545;
 }
 
 
 #container-sec1,
-#container-sec2,
+#carrusel,
 .container-footer {
   height: 100vh; 
   width: 100vw;

@@ -7,9 +7,8 @@ import Section_2 from "./Section_2 ";
 export default function App() {
   return (
     <div>
-    
+  
       <NavBar />
-
       <Hero />
       <Section_1 />
       <Section_2 />

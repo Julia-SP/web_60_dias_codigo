@@ -5,7 +5,7 @@ import data_retos from '../data/data_retos';
 
 export default function Carrusel_tarjetas() {
   return (
-    <div className="carrusel-contenedor">
+    <div  id='carrusel' className="carrusel-contenedor">
       <div className="carrusel-slider">
  <ul className="items-carrusel">
           {data_retos.map(reto => (
