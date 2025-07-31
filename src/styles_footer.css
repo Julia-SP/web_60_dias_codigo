@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #container-footer {
+  margin-top: 40px;
   background-color: var(--morado);
   padding-top: 1rem;
+  height: 100vh;
   padding-right: 3rem;
 }
 
@@ -30,7 +32,7 @@ h4 {
   margin-bottom: 20px;
 }
 
-button {
+.CTA {
   background-color: transparent;
   border-radius: 16px;
   color: var(--blanco);
@@ -52,6 +54,7 @@ button {
   margin-right: 20px;
   margin-bottom: 30px;
   line-height: 18pt;
+  max-width: 600px;
 }
 
 .bio-footer a {
@@ -67,7 +70,7 @@ button {
   color: var(--blanco);
 }
 
-button:hover {
+.CTA:hover {
   border: none;
   background-color: var(--blanco);
   color: #ad89fb;

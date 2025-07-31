@@ -11,13 +11,6 @@
   margin: 24px auto;
 }
 
-.cuadrado {
-  background: #c8d3c1;
-  border-radius: 10px;
-  width: 100%;
-  height: 120px;
-  margin-bottom: 8px;
-}
 
 h6 {
   font-size: 20px;
@@ -64,8 +57,31 @@ p {
   letter-spacing: 1px;
 }
 .galeria-retos {
+  justify-content: center;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ver-mas {
+   justify-content: 'center';
+display: block;
+  margin: 30px auto 0 auto;  
+  background-color: var(--blanco);
+  border-radius: 16px;
+  color: var(--negro);
+  border: solid var(--negro) 2px;
+  padding: 4px 15px;
+  cursor: pointer;
+  margin: 0 auto 30px 0;
+  font-size: 14px;
+  transition: transform 0.2s ease;
+
+}
+.ver-mas:hover {
+  background: var(--negro);
+  color: var(--blanco);
 }

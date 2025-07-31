@@ -3,7 +3,7 @@ import './styles_hero.css'
 
 export default function Hero() {
   return (
-    <div className='container-hero'>
+    <div className='container-hero' id='hero'>
       <h1>Reto 60 días <br>
       </br>de código</h1>
       <button id='ver-proyectos'>Ver proyectos</button>

@@ -1,9 +1,11 @@
 .tarjeta {
-  background: #fff;
+background-color: var(--blanco);
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(60,60,60,0.07), 0 1.5px 6px rgba(60,60,60,0.04);
   padding: 0 0px 16px 0px; /* quitar padding superior */
   width: 300px;
+  height: 400px;
+  color:var(--negro)
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -29,7 +31,7 @@
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0;
   display: inline-block;
@@ -37,7 +39,7 @@ h6 {
 }
 
 h5 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0 0 8px 0;
   line-height: 1.1;
