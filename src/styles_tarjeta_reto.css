@@ -5,7 +5,8 @@ background-color: var(--blanco);
   padding: 0 0px 16px 0px; /* quitar padding superior */
   width: 300px;
   height: 400px;
-  color:var(--negro)
+  color:var(--negro);
+  cursor:pointer;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;

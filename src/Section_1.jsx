@@ -4,7 +4,7 @@ export default function Section_1() {
   return (
     <div id="container-sec1">
       <div id="subtitulo-sec1">
-        <h3> En qué consiste</h3>
+        <h3>What the hell is this?</h3>
       </div>
       <div id="texto-1">
         <p>

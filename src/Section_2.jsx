@@ -1,16 +1,31 @@
 import './styles_Section.css';
-
+import './styles_fichaReto.css';
 import Tarjeta_reto from './Tarjeta_reto';
 import { useState } from 'react';
 import data_retos from '../data/data_retos';
 
 const tope = 60; // Puedes ajustar este tope si quieres limitar la cantidad máxima a mostrar
 
-export default function Section_2() {
+export default function Section_2({ onAbrirReto }) {
+
   const [filtro, setFiltro] = useState(null);
   const [visibleCount, setVisibleCount] = useState(6);
 
-  const filtros = ['HTML', 'CSS', 'JavaScript', 'React', 'Express', 'API', 'Chart.js', 'Firebase', 'Node.js', 'JWT', 'MongoDB', 'Redux', 'Socket.io'];
+  const filtros = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Express',
+    'API',
+    'Chart.js',
+    'Firebase',
+    'Node.js',
+    'JWT',
+    'MongoDB',
+    'Redux',
+    'Socket.io',
+  ];
 
   // Maneja selección de filtro, y reinicia visibleCount a 6 para no mostrar más que el tope filtrado
   const handleFiltro = (nombre) => {
@@ -20,17 +35,17 @@ export default function Section_2() {
 
   // Filtrar retos por lenguaje seleccionado
   const retosFiltrados = filtro
-    ? data_retos.filter(reto => reto.lenguajes.includes(filtro))
+    ? data_retos.filter((reto) => reto.lenguajes.includes(filtro))
     : data_retos;
 
   const maxToShow = Math.min(tope, retosFiltrados.length);
 
   const mostrarMas = () => {
-    setVisibleCount(prev => Math.min(prev + 6, maxToShow));
+    setVisibleCount((prev) => Math.min(prev + 6, maxToShow));
   };
 
   const mostrarMenos = () => {
-    setVisibleCount(prev => Math.max(prev - 6, 6));
+    setVisibleCount((prev) => Math.max(prev - 6, 6));
   };
 
   const mostrarBotonCargarMas = visibleCount < maxToShow;
@@ -41,7 +56,6 @@ export default function Section_2() {
       <h3>Retos</h3>
 
       <div className="caja">
-  
         <div className="filtros">
           {filtros.map((f, i) => (
             <button
@@ -52,22 +66,31 @@ export default function Section_2() {
               {f}
             </button>
           ))}
-          <button onClick={() => {setFiltro(null); setVisibleCount(6);}} className="borrar">Borrar filtros</button>
+          <button
+            onClick={() => {
+              setFiltro(null);
+              setVisibleCount(6);
+            }}
+            className="borrar"
+          >
+            Borrar filtros
+          </button>
         </div>
 
-    
         <div className="galeria-retos">
           {retosFiltrados.slice(0, visibleCount).map((reto) => (
-            <Tarjeta_reto
-              imagen={reto.imagen}
-              key={reto.id}
-              numero={reto.numero}
-              nombre={reto.nombre}
-              descripcion={reto.descripcion}
-              lenguajes={reto.lenguajes}
-            />
+     <Tarjeta_reto
+  key={reto.id}
+  imagen={reto.imagen}
+  numero={reto.numero}
+  nombre={reto.nombre}
+  descripcion={reto.descripcion}
+  lenguajes={reto.lenguajes}
+  onClick={() => onAbrirReto(reto)}
+/>
+
           ))}
-         
+
           {mostrarBotonCargarMas && (
             <button className="ver-mas" onClick={mostrarMas}>
               Cargar más
@@ -79,10 +102,7 @@ export default function Section_2() {
               Mostrar menos
             </button>
           )}
-        
         </div>
-
-       
       </div>
     </div>
   );
