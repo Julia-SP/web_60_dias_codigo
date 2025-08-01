@@ -253,7 +253,7 @@ const data_retos = [
   {
     id: 20,
     numero: 20,
-    nombre: 'Trivia Game (API)',
+    nombre: 'Trivial (API)',
     descripcion: 'Juego de trivial usando preguntas de API.',
     explicacion_ejercicio:
       'Usa Open Trivia DB: muestra pregunta y opciones mezcladas. Lleva puntuación, feedback y reinicio.',
@@ -265,7 +265,7 @@ const data_retos = [
   {
     id: 21,
     numero: 21,
-    nombre: 'QR Code Generator',
+    nombre: 'Generador de códigos QR ',
     descripcion: 'Genera un código QR para el texto o URL ingresado.',
     explicacion_ejercicio:
       'Usa QRCode.js: lector genera código, permite descargar o copiar. Valida entrada.',
@@ -337,7 +337,7 @@ const data_retos = [
   {
     id: 27,
     numero: 27,
-    nombre: 'Auth con Firebase',
+    nombre: 'Autenticación con Firebase',
     descripcion: 'Registro/login de usuarios con Firebase Authentication.',
     explicacion_ejercicio:
       'Configura Firebase, crea formularios de registro y login. Maneja sesión y protegé rutas de usuario.',
@@ -349,7 +349,7 @@ const data_retos = [
   {
     id: 28,
     numero: 28,
-    nombre: 'Drag & Drop Task Manager',
+    nombre: 'Drag & Drop gestor de tareas',
     descripcion: 'Organiza tarjetas moviéndolas entre columnas.',
     explicacion_ejercicio:
       'Crea tableros con columnas y tareas. Usa API de Drag & Drop nativo para mover tarjetas.',

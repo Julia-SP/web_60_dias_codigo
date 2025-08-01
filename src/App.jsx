@@ -12,6 +12,7 @@ export default function App() {
       <Hero />
       <Section_1 />
       <Section_2 />
+      
       <Footer />
     
     </div>

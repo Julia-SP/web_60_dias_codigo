@@ -41,7 +41,7 @@ export default function Section_2() {
       <h3>Retos</h3>
 
       <div className="caja">
-        {/* Botones de filtros */}
+  
         <div className="filtros">
           {filtros.map((f, i) => (
             <button
@@ -55,7 +55,7 @@ export default function Section_2() {
           <button onClick={() => {setFiltro(null); setVisibleCount(6);}} className="borrar">Borrar filtros</button>
         </div>
 
-        {/* Galería con tarjetas */}
+    
         <div className="galeria-retos">
           {retosFiltrados.slice(0, visibleCount).map((reto) => (
             <Tarjeta_reto
@@ -82,7 +82,6 @@ export default function Section_2() {
         
         </div>
 
-        {/* Botones de carga/descarga */}
        
       </div>
     </div>

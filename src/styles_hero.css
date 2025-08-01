@@ -20,6 +20,7 @@ justify-content: center;
 }
 
 h1 {
+    color: var(--negro);
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 80pt;
@@ -40,6 +41,7 @@ h1 {
 }
 
 h4 {
+    color: var(--negro);
   padding-top: 5px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
