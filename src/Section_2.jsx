@@ -83,7 +83,7 @@ export default function Section_2({ onAbrirReto }) {
               imagen={reto.imagen}
               numero={reto.numero}
               nombre={reto.nombre}
-              descripcion={reto.descripcion}
+              descripcion={reto.descripcion_corta} 
               lenguajes={reto.lenguajes}
               onClick={() => onAbrirReto(reto)}
             />

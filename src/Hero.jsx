@@ -6,7 +6,7 @@ export default function Hero() {
     <div className='container-hero' id='hero'>
       <h1>Reto 60 días <br>
       </br>de código</h1>
-      <button id='ver-proyectos' href="#container-sec2">Ver proyectos<a href="#container-sec2"></a></button>
+<a id="ver-proyectos" href="#container-sec2" className="btn">Ver proyectos</a>
       <h4>Practica y aprende JavaScript, HTML, CSS, React, APIs y mucho más a través de proyectos</h4>
 
       <div className="logos">

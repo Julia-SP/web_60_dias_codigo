@@ -31,7 +31,15 @@ export default function App() {
               <button className="cerrar-modal" onClick={handleCerrarModal}>
                 X
               </button>
-              <FichaReto reto={retoSeleccionado} />
+             <FichaReto
+            numero={retoSeleccionado.numero}
+            nombre={retoSeleccionado.nombre}
+            descripcion_corta={retoSeleccionado.descripcion_corta}
+            imagen={retoSeleccionado.imagen}
+            explicacion_ejercicio={retoSeleccionado.explicacion_ejercicio}
+            consejos={retoSeleccionado.consejos}
+            links={retoSeleccionado.links}
+          />
             </div>
           </div>
         </>
