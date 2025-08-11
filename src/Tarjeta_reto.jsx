@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Tarjeta_reto({ numero, imagen, nombre, descripcion, lenguajes = [], onClick }) {
   return (
-   <div className="tarjeta" onClick={onClick}>
-
+    <div className="tarjeta" onClick={onClick}>
       <div className="imagen-contenedor">
         <img src={imagen} className="foto-tarjeta" alt={`Imagen ${numero}`} />
       </div>

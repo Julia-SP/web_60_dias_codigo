@@ -7,7 +7,6 @@ import data_retos from '../data/data_retos';
 const tope = 60; // Puedes ajustar este tope si quieres limitar la cantidad máxima a mostrar
 
 export default function Section_2({ onAbrirReto }) {
-
   const [filtro, setFiltro] = useState(null);
   const [visibleCount, setVisibleCount] = useState(6);
 
@@ -79,16 +78,15 @@ export default function Section_2({ onAbrirReto }) {
 
         <div className="galeria-retos">
           {retosFiltrados.slice(0, visibleCount).map((reto) => (
-     <Tarjeta_reto
-  key={reto.id}
-  imagen={reto.imagen}
-  numero={reto.numero}
-  nombre={reto.nombre}
-  descripcion={reto.descripcion}
-  lenguajes={reto.lenguajes}
-  onClick={() => onAbrirReto(reto)}
-/>
-
+            <Tarjeta_reto
+              key={reto.id}
+              imagen={reto.imagen}
+              numero={reto.numero}
+              nombre={reto.nombre}
+              descripcion={reto.descripcion}
+              lenguajes={reto.lenguajes}
+              onClick={() => onAbrirReto(reto)}
+            />
           ))}
 
           {mostrarBotonCargarMas && (
