@@ -22,7 +22,8 @@ export default function FichaReto(reto) {
           <ul className="lista-recursos">
             {links.map((link, index) => (
               <li key={index}>
-                <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  ✌️ Recurso {index + 1}</a>
               </li>
             ))}
           </ul>

@@ -8,6 +8,20 @@ body{
   overflow-y: scroll;
 }
 
+.cerrar-modal {
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: var(--morado);
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.cerrar-modal:hover {
+    transform: scale(1.2) rotate(15deg);
+  color:var(--negro)
+}
 
 
 
