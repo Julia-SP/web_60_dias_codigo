@@ -3,7 +3,7 @@
 #container-footer {
 justify-content: center;
   background-color: var(--morado);
-  padding-top: 50px;
+  padding-top: 65px;
   height: 100vh;
   padding-right: 3rem;
 }
