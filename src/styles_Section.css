@@ -1,69 +1,52 @@
 #container-sec1 {
   padding-top: 65px;
   background-color: var(--naranja);
-  height: 100vh;
+  min-height: 100vh; /* mejor que height fija */
   display: flex;
-  flex-direction: column; /* Título arriba, contenido debajo */
+  flex-direction: column;
   align-items: center;
   gap: 30px;
   opacity: 0;
   transform: translateY(40px);
   animation: fadeInHero 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
   animation-delay: 0.2s;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-#harold{
-  min-width: 650px;
-border-radius: 4px;
+.titulo_w h3 {
+  text-align: center;
+    padding-top: 65px;
 }
 
+/* Imagen responsive */
+#harold {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Texto */
 .textos_2 p {
-    display: flex;
+  display: flex;
   flex-direction: column;
   padding-right: 40px;
-    color: var(--negro);
+  color: var(--negro);
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.4;
   text-align: left;
+  font-family: 'Poppins', sans-serif;
+  min-width: 300px;
 }
-/* .titulo_w {
-  text-align: center;
-}
- */
+
+/* Contenedor texto + foto */
 .text_foto {
   display: flex;
   flex-direction: row;
-  gap:30px;
-
-/*   align-items: center;  /* 🔹 Alinea verticalmente imagen y texto */ 
-/*   width: 100%; */
-/*   max-width: 1200px; */
-}
-
-/* 
-#texto-1 {
-  flex: 1; /* Cada uno ocupa la mitad horizontal 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-} */
-
-/* #imagen-1 img {
-  max-width: 100%;
-  height: auto;
-} */
-
-/* #texto-1 p {
-  color: var(--negro);
-  font-size: 18px;
-  line-height: 24px;
-  text-align: left;
-} */
-
-p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 11pt;
+  gap: 30px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
 }
 
 

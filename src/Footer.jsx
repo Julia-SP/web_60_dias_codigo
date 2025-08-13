@@ -9,10 +9,10 @@ function Footer() {
    <button className='CTA'>LinkedIn</button>
 
     <h5 className='bio-footer'>
-      Hola, soy Julia Subiza, UX/UI Designer & Front-end Developer (en inglés suena mejor, sorry) y puedes encontrarme en:
-      <a href="https://github.com/Julia-SP"> Github</a> , 
-      <a href="https://www.linkedin.com/in/juliasubiza"> LinkedIn </a> 
-      y  <a href="https://www.behance.net/julia_subiza">Behance</a>.
+      👋 Hola, soy Julia Subiza, UX/UI Designer & Front-end Developer (en inglés suena mejor, sorry) y puedes encontrarme en:
+      <a   target="_blank" rel="noopener noreferrer" href="https://github.com/Julia-SP"> Github</a> , 
+      <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juliasubiza"> LinkedIn </a> 
+      y  <a  target="_blank" rel="noopener noreferrer" href="https://www.behance.net/julia_subiza" >Behance</a>.
     </h5>
 
    </div>

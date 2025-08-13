@@ -28,7 +28,6 @@ export default function FichaReto(reto) {
             ))}
           </ul>
         </div>
-
          <div className="seccion">
           <h3 className="seccion-titulo">Superconsejito</h3>
           <p className="seccion-texto">{consejos}</p>

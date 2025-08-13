@@ -12,8 +12,9 @@ const data_retos = [
     links: [
       'https://www.youtube.com/watch?v=m37Y2RznA-U',
       'https://www.youtube.com/watch?v=oYRda7UtuhA',
-      '#',
-      '#',
+      'https://www.youtube.com/watch?v=G3e-cpL7ofc',
+      'https://developer.mozilla.org/es/docs/Learn/CSS',
+      'https://web.dev/learn/design/',
     ],
     consejos:
       'Los vídeos en los fondos son muy efectistas y no cuesta nada ponerlos. Puedes encontrar libres en Unplash o Freepik',
@@ -31,7 +32,6 @@ const data_retos = [
       'https://www.youtube.com/watch?v=I5kj-YsmWjM',
       'https://www.youtube.com/watch?v=b0_Yv-HomnE',
       'https://www.youtube.com/watch?v=LX8_z1nvqk4',
-      '#',
     ],
     consejos: 'Diviértete haciendo la calculadora que siempre has querido',
   },
@@ -48,7 +48,6 @@ const data_retos = [
       'https://www.youtube.com/watch?v=HGTJBPNC-Gw',
       'https://www.youtube.com/watch?v=qz0aGYrrlhU',
       'https://www.pixartprinting.es/blog/rgb-definicion/?srsltid=AfmBOorZ81-t0sNctiCj-t2-9mdTwSP9Gb0_Wjae6ky_Yu4CrC2qOVNQ',
-      '#',
     ],
     consejos:
       'No te quedes solo con los colores HEX e intenta añadir RGB, HSV y todas las que te puedan venir bien para tus proyectos ',
@@ -62,7 +61,12 @@ const data_retos = [
       'Crea campos de cantidad y selects para monedas. utiliza la API gratuita ExChangeRate-API para conseguir todos los datos necesarios que necesitas',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/4.png',
-    links: ['https://www.youtube.com/watch?v=HGTJBPNC-Gw', 'https://www.exchangerate-api.com/', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=J8RvOaZzW3A',
+      'https://www.exchangerate-api.com/',
+      'https://developer.mozilla.org/es/docs/Web/API/Fetch_API',
+      'https://www.youtube.com/watch?v=tc8DU14qX6I',
+    ],
     consejos: 'Piensa en cómo sería el conversor más cómodo para ti, ahora hazlo',
   },
   {
@@ -74,9 +78,13 @@ const data_retos = [
       'Implementa añadir, marcar como completada y borrar tareas. Persiste el array en localStorage y recupéralo al recargar. Crea un contador de tareas pendientes.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/5.png',
-    links: ['https://www.youtube.com/watch?v=kK_Wqx3RnHk', 'https://www.youtube.com/watch?v=-oP7JK_rXUI', 'https://www.youtube.com/watch?v=G0jO8kUrg-I', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=kK_Wqx3RnHk',
+      'https://www.youtube.com/watch?v=-oP7JK_rXUI',
+      'https://www.youtube.com/watch?v=G0jO8kUrg-I',
+    ],
     consejos:
-      '',
+      'Convierte las tareas en objetos con propiedades como id, texto y completada para gestionarlas mejor',
   },
   {
     id: 6,
@@ -87,7 +95,11 @@ const data_retos = [
       'Crea un formulario con campos como email, password, nombre... Implementa validaciones por regex, mensajes de error y bloqueo de envío si hay errores. Resalta los campos inválidos.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/6.png',
-    links: ['https://www.youtube.com/watch?v=rfscVS0vtbw', 'https://www.youtube.com/watch?v=EQrUGEvnCzY', 'https://www.youtube.com/watch?v=In0nB0ABaUk', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=rfscVS0vtbw',
+      'https://www.youtube.com/watch?v=EQrUGEvnCzY',
+      'https://www.youtube.com/watch?v=In0nB0ABaUk',
+    ],
     consejos:
       'Busca buenas prácticas o ejemplos como los de Material Design si no sabes cómo representar gráficamente la muestra de errores, etc',
   },
@@ -100,7 +112,12 @@ const data_retos = [
       'Implementa botones para las opciones. Genera elección aleatoria para la máquina, muestra el resultado y lleva un marcador de ronda. Añade animaciones o efectos al fallo/éxito.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/7.png',
-    links: ['https://www.youtube.com/watch?v=HGTJBPNC-Gw', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=fAg7gu3iWlQ', // video correcto
+      'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random',
+      'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else',
+      'https://www.youtube.com/watch?v=V-lK-BkRY78',
+    ],
     consejos:
       'Guarda las opciones en un array; haz la lógica de ganador como función separada; reinicia marcador opcional. Se creativo hay muchas formas de hacerlo',
   },
@@ -113,7 +130,12 @@ const data_retos = [
       'Carga un array de imágenes con categorías. Genera dinamicamente las cards. Añade botones que filtren por categoría mostrando solo las correspondientes.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/8.png',
-    links: ['https://www.youtube.com/watch?v=McPdzhLRzCg', '', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=McPdzhLRzCg',
+      'https://www.youtube.com/watch?v=8gNrZ4lAnAw',
+      'https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout',
+      'https://developer.mozilla.org/es/docs/Web/API/Element/classList',
+    ],
     consejos:
       'Usa data-attributes para categorías; reutiliza la función de renderizado al cambiar filtro. Una idea, un selector de helados y qu puedas filtrar por sabor, ingredientes...',
   },
@@ -126,7 +148,12 @@ const data_retos = [
       'Crea un slider con flechas prev/next y paginación. Cambia la imagen actual con animación CSS/JS. Añade autoplay con pausa al hover.',
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/9.png',
-    links: ['https://www.youtube.com/watch?v=McPdzhLRzCg', 'https://www.youtube.com/watch?v=SxklmLH6TE8', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=McPdzhLRzCg',
+      'https://www.youtube.com/watch?v=SxklmLH6TE8',
+      '#',
+      '#',
+    ],
     consejos:
       'Utiliza position y transform; controla límites; implementa setInterval y clearInterval.',
   },
@@ -140,7 +167,8 @@ const data_retos = [
     lenguajes: ['HTML', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/10.png',
     links: ['https://www.youtube.com/watch?v=HGTJBPNC-Gw', '#', '#', '#'],
-    consejos: 'Include uppercase/lowercase/numbers/symbols según selección; usa Clipboard API por ejemplo.',
+    consejos:
+      'Include uppercase/lowercase/numbers/symbols según selección; usa Clipboard API por ejemplo.',
   },
   {
     id: 11,
@@ -210,7 +238,7 @@ const data_retos = [
     explicacion_ejercicio:
       'Usa Unsplash API para buscar imágenes. Muestra grilla responsive; añade carga más y lazy‑load.',
     lenguajes: ['HTML', 'CSS', 'JavaScript', 'API'],
-    imagen: '/assets_retos/reto16.png',
+    imagen: '/assets_retos/16.png',
     links: ['https://www.youtube.com/watch?v=KLlX7nMdNn8', '#', '#', '#'],
     consejos: 'Debounce en input; scroll infinito; spinner al final.',
   },
@@ -403,7 +431,12 @@ const data_retos = [
       'Crea componentes de entrada, vista de clima y loader. Fetch a OpenWeatherMap y muestra datos.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'API'],
     imagen: '/assets_retos/32.png',
-    links: ['https://www.youtube.com/watch?v=GuA0_Z1llYU', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=GuA0_Z1llYU',
+      'https://www.youtube.com/watch?v=NT299zIk2JY',
+      'https://openweathermap.org/current',
+      'https://react.dev/reference/react/useEffect',
+    ],
     consejos: 'useEffect para fetch; estado loading y error.',
   },
   {
@@ -414,8 +447,13 @@ const data_retos = [
     explicacion_ejercicio:
       'Consulta TMDB en un componente React, muestra lista y permite ver detalles.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'API'],
-    imagen: '/assets_retos/reto33.png',
-    links: ['https://www.youtube.com/watch?v=3Xtuzow1vG4', '#', '#', '#'],
+    imagen: '/assets_retos/33.png',
+    links: [
+      'https://www.youtube.com/watch?v=3Xtuzow1vG4',
+      'https://www.youtube.com/watch?v=4bzJrEETW4w',
+      'https://developer.mozilla.org/es/docs/Web/API/Window/localStorage',
+      'https://react.dev/reference/react/useEffect',
+    ],
     consejos: 'useEffect con dependencia de búsqueda; debounce.',
   },
   {
@@ -427,7 +465,12 @@ const data_retos = [
       'Permite crear, mostrar, editar y eliminar datos con React y persistencia local.',
     lenguajes: ['React', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/34.png',
-    links: ['https://www.youtube.com/watch?v=ZTh9QT27gVE', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=ZTh9QT27gVE',
+      'https://www.youtube.com/watch?v=PKwu15ldZ7k',
+      'https://firebase.google.com/docs',
+      'https://react.dev/learn',
+    ],
     consejos: 'Custom hooks para storage; formularios controlados.',
   },
   {
@@ -439,7 +482,12 @@ const data_retos = [
       'CRUD posts: título, contenido, listado y detalle, usando Firebase como backend.',
     lenguajes: ['React', 'CSS', 'JavaScript', 'Firebase'],
     imagen: '/assets_retos/35.png',
-    links: ['https://www.youtube.com/watch?v=PKku4l7n2Kw', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=PKku4l7n2Kw',
+      'https://www.youtube.com/watch?v=7CqJlxBYj-M',
+      'https://expressjs.com/es/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Sube imágenes a Storage; estructura por usuario.',
   },
   {
@@ -451,7 +499,12 @@ const data_retos = [
       'React frontend que consume API en Node.js para crear tareas, listarlas y eliminarlas.',
     lenguajes: ['React', 'Node.js', 'Express', 'CSS'],
     imagen: '/assets_retos/36.png',
-    links: ['https://www.youtube.com/watch?v=Sb9g2VlXUn0', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=Sb9g2VlXUn0',
+      'https://www.youtube.com/watch?v=mbsmsi7l3r4',
+      'https://jwt.io/introduction',
+      'https://react.dev/learn',
+    ],
     consejos: 'Cors, routes bien estructuradas, axios.',
   },
   {
@@ -463,7 +516,12 @@ const data_retos = [
       'Backend en Node: registro/login con JWT; frontend React: forms, protected routes, token en localStorage.',
     lenguajes: ['React', 'Node.js', 'Express', 'JWT'],
     imagen: '/assets_retos/37.png',
-    links: ['https://www.youtube.com/watch?v=7nafaH9SddU', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=7nafaH9SddU',
+      'https://www.youtube.com/watch?v=rxzOqP9YwmM',
+      'https://jwt.io/introduction',
+      'https://www.npmjs.com/package/bcrypt',
+    ],
     consejos: 'bcrypt para hashing; refresh tokens opcional.',
   },
   {
@@ -475,7 +533,12 @@ const data_retos = [
       'Backend con Socket.io, frontend conectado, mensajes emitidos y recibidos en tiempo real.',
     lenguajes: ['JavaScript', 'Node.js', 'Socket.io'],
     imagen: '/assets_retos/38.png',
-    links: ['https://www.youtube.com/watch?v=vQjiN8Qgs3c', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=vQjiN8Qgs3c',
+      'https://www.youtube.com/watch?v=377AQ0y6LPA',
+      'https://socket.io/docs/v4/client-api/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Room option; mostrar usuarios conectados.',
   },
   {
@@ -487,7 +550,12 @@ const data_retos = [
       'Muestra lista de productos, detalles y carrito (solo UI/backend simulado).',
     lenguajes: ['React', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/39.png',
-    links: ['https://www.youtube.com/watch?v=Ke90Tje7VS0', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=Ke90Tje7VS0',
+      'https://www.youtube.com/watch?v=1r-F3FIONl8',
+      'https://stripe.com/docs',
+      'https://react.dev/learn',
+    ],
     consejos: 'Context API para estado global; localStorage carrito.',
   },
   {
@@ -499,7 +567,12 @@ const data_retos = [
       'Integra Stripe Checkout/Elements con backend en Node y frontend en React o JS.',
     lenguajes: ['JavaScript', 'Node.js', 'React', 'Stripe API'],
     imagen: '/assets_retos/40.png',
-    links: ['https://www.youtube.com/watch?v=QKTFrDmxFSY', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=QKTFrDmxFSY',
+      'https://www.youtube.com/watch?v=poQXNp9ItL4',
+      'https://redux.js.org/',
+      'https://react-redux.js.org/',
+    ],
     consejos: 'Entorno seguro (HTTPS), webhooks para validación.',
   },
   {
@@ -511,7 +584,12 @@ const data_retos = [
       'Configura redux store, actions, reducers; integra con React usando hooks redux.',
     lenguajes: ['React', 'Redux', 'JavaScript', 'CSS'],
     imagen: '/assets_retos/41.png',
-    links: ['https://www.youtube.com/watch?v=CVpUuw9XSjY', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=CVpUuw9XSjY',
+      'https://www.youtube.com/watch?v=CVpUuw9XSjY',
+      'https://redux-toolkit.js.org/',
+      'https://react-redux.js.org/api/hooks',
+    ],
     consejos: 'Manten reducers puros; usar redux-devtools.',
   },
   {
@@ -523,7 +601,12 @@ const data_retos = [
       'Crea dashboard con Chart.js o Recharts: muestra gráficos de datos fetch, tablas paginadas.',
     lenguajes: ['React', 'JavaScript', 'Chart.js', 'CSS'],
     imagen: '/assets_retos/42.png',
-    links: ['https://www.youtube.com/watch?v=8SbUC-UaR14', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=8SbUC-UaR14',
+      'https://www.youtube.com/watch?v=5v-wyR5emRw',
+      'https://www.chartjs.org/docs/latest/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Componentes reutilizables; responsive en tablas.',
   },
   {
@@ -535,7 +618,12 @@ const data_retos = [
       'Reproduce el UI: feeds, tweets, sidebar y navbar. No hace falta backend.',
     lenguajes: ['React', 'CSS'],
     imagen: '/assets_retos/43.png',
-    links: ['https://www.youtube.com/watch?v=C6LLR3K5j14', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=C6LLR3K5j14',
+      'https://www.youtube.com/watch?v=0sV3FZ7KsYk',
+      'https://tailwindcss.com/docs',
+      'https://react.dev/learn',
+    ],
     consejos: 'Flexbox/ Grid para layout; tarjetas reutilizables.',
   },
   {
@@ -547,7 +635,12 @@ const data_retos = [
       'Usa Spotify API: lista playlists o tracks, muestra portada, artist, play button dummy.',
     lenguajes: ['React', 'JavaScript', 'API'],
     imagen: '/assets_retos/44.png',
-    links: ['https://www.youtube.com/watch?v=V0DRZZ85_k8', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=V0DRZZ85_k8',
+      'https://www.youtube.com/watch?v=I1cpb0tYV74',
+      'https://developer.spotify.com/documentation/web-api/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Maneja token OAuth; loaders.',
   },
   {
@@ -559,7 +652,12 @@ const data_retos = [
       'Backend Node/Express con endpoints CRUD, frontend React que consuma API y muestre formulario y tablas.',
     lenguajes: ['React', 'Node.js', 'Express', 'CSS'],
     imagen: '/assets_retos/45.png',
-    links: ['https://www.youtube.com/watch?v=EMfFdv1wos4', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=EMfFdv1wos4',
+      'https://www.youtube.com/watch?v=O3BUHwfHf84',
+      'https://expressjs.com/es/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Organiza rutas REST; manejo de errores.',
   },
   {
@@ -571,7 +669,12 @@ const data_retos = [
       'Crea rutas GET, POST, PUT, DELETE para recurso (por ejemplo, productos). Usa middleware, validación y MongoDB o array.',
     lenguajes: ['Node.js', 'Express', 'JavaScript'],
     imagen: '/assets_retos/46.png',
-    links: ['https://www.youtube.com/watch?v=Oe421EPjeBE', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=Oe421EPjeBE',
+      'https://www.youtube.com/watch?v=fgTGADljAeg',
+      'https://expressjs.com/es/',
+      'https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction',
+    ],
     consejos: 'Usa router modular; middleware de error.',
   },
   {
@@ -583,7 +686,12 @@ const data_retos = [
       'Consume la API del reto anterior: lista items, crea items, borra, edita. Usa axios o fetch y estado. ',
     lenguajes: ['React', 'JavaScript', 'CSS'],
     imagen: '/assets_retos/47.png',
-    links: ['https://www.youtube.com/watch?v=wgMtPikKHQA', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=wgMtPikKHQA',
+      'https://www.youtube.com/watch?v=T3Px88x_PsA',
+      'https://react.dev/learn',
+      'https://developer.mozilla.org/es/docs/Web/API/Fetch_API',
+    ],
     consejos: 'CORS habilitado en backend; manejar el estado tras acciones.',
   },
   {
@@ -595,7 +703,12 @@ const data_retos = [
       'Modelo usuarios/post: backend con CRUD de topics y mensajes. Frontend con creación y listados.',
     lenguajes: ['React', 'Node.js', 'Express', 'MongoDB'],
     imagen: '/assets_retos/48.png',
-    links: ['https://www.youtube.com/watch?v=BtXNvGVCUns', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=BtXNvGVCUns',
+      'https://www.youtube.com/watch?v=1NrHkjlWVhM',
+      'https://expressjs.com/es/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Populate de referencias; paginación.',
   },
   {
@@ -604,10 +717,15 @@ const data_retos = [
     nombre: 'Redux en proyecto',
     descripcion_corta: 'Añade Redux a una app existente',
     explicacion_ejercicio:
-      'Integra Redux en una app React que ya existe (ej. e‑commerce o blog). Refactor estado global.',
+      'Integra Redux en una app React que ya existe (ej. e-commerce o blog). Refactor estado global.',
     lenguajes: ['React', 'Redux', 'JavaScript'],
     imagen: '/assets_retos/49.png',
-    links: ['https://www.youtube.com/watch?v=CVpUuw9XSjY', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=CVpUuw9XSjY',
+      'https://www.youtube.com/watch?v=poQXNp9ItL4',
+      'https://redux.js.org/',
+      'https://react-redux.js.org/',
+    ],
     consejos: 'Normaliza el estado; usa combineReducers.',
   },
   {
@@ -619,19 +737,29 @@ const data_retos = [
       'Crea columnas y tarjetas que puedan moverse entre columnas con react-beautiful-dnd o nativo.',
     lenguajes: ['React', 'JavaScript', 'CSS'],
     imagen: '/assets_retos/50.png',
-    links: ['https://www.youtube.com/watch?v=ihoorV6kQIE', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=ihoorV6kQIE',
+      'https://www.youtube.com/watch?v=Vqa9NMz3zA0',
+      'https://github.com/atlassian/react-beautiful-dnd',
+      'https://react.dev/learn',
+    ],
     consejos: 'Usa react-beautiful-dnd; guarda estado en localStorage.',
   },
   {
     id: 51,
     numero: 51,
-    nombre: 'Real‑time Chat App (React + Firebase)',
+    nombre: 'Real-time Chat App (React + Firebase)',
     descripcion_corta: 'Chat completo en tiempo real usando Firebase',
     explicacion_ejercicio:
       'Autenticación con Firebase Auth, mensajes guardados en Firestore, chat en tiempo real con UI actualizada.',
     lenguajes: ['React', 'Firebase', 'JavaScript', 'CSS'],
     imagen: '/assets_retos/51.png',
-    links: ['https://www.youtube.com/watch?v=zQyrwxMPm88', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=zQyrwxMPm88',
+      'https://www.youtube.com/watch?v=zQyrwxMPm88',
+      'https://firebase.google.com/docs',
+      'https://react.dev/learn',
+    ],
     consejos: 'Levas un montón de proyectos, enhorabuena.',
   },
   {
@@ -643,7 +771,12 @@ const data_retos = [
       'Implementa login con Google/GitHub usando Firebase Auth o Passport.js. Maneja redirecciones y tokens.',
     lenguajes: ['JavaScript', 'Firebase', 'Node.js', 'React'],
     imagen: '/assets_retos/52.png',
-    links: ['https://www.youtube.com/watch?v=KQIQbZKZg', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=KQIQbZKZg',
+      'https://www.youtube.com/watch?v=PKwu15ldZ7k',
+      'https://firebase.google.com/docs/auth',
+      'https://oauth.net/2/',
+    ],
     consejos: 'Revisa configuración OAuth en consola dev.; manejo de errors UI.',
   },
   {
@@ -655,7 +788,11 @@ const data_retos = [
       'Define roles; protege rutas; muestra diferentes vistas según rol (admin verá más opciones que user).',
     lenguajes: ['React', 'Node.js', 'Express', 'JWT'],
     imagen: '/assets_retos/53.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=0oXYLzuucwE',
+      'https://expressjs.com/es/',
+      'https://react.dev/learn',
+    ],
     consejos: 'Middleware de auth; pruebas con distintos tokens.',
   },
   {
@@ -667,7 +804,12 @@ const data_retos = [
       'Añade funcionalidad push (nuevos datos, notificaciones) usando Socket.io entre Node.js y frontend.',
     lenguajes: ['JavaScript', 'Node.js', 'Socket.io', 'React'],
     imagen: '/assets_retos/54.png',
-    links: ['https://www.youtube.com/watch?v=vQjiN8Qgs3c', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=vQjiN8Qgs3c',
+      'https://www.youtube.com/watch?v=rxzOqP9YwmM',
+      'https://socket.io/docs/v4/',
+      'https://developer.mozilla.org/es/docs/Web/API/WebSockets_API',
+    ],
     consejos: 'Usa rooms; desconexión limpia.',
   },
   {
@@ -679,7 +821,11 @@ const data_retos = [
       'Añade productos al carrito; guarda estado global con Redux; backend con sessions o en DB; confirma órdenes.',
     lenguajes: ['React', 'Redux', 'Node.js', 'Express'],
     imagen: '/assets_retos/55.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=377AQ0y6LPA',
+      'https://redux.js.org/',
+      'https://expressjs.com/es/',
+    ],
     consejos: 'Normalized state; total price recalculado al cambiar cantidad.',
   },
   {
@@ -691,7 +837,11 @@ const data_retos = [
       'Consume API de películas; muestra secciones como Trending, Top Rated; carruseles con slick o swiper.',
     lenguajes: ['React', 'JavaScript', 'API', 'CSS'],
     imagen: '/assets_retos/56.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=XtMThy8QKqU',
+      'https://developer.themoviedb.org/docs',
+      'https://react.dev/learn',
+    ],
     consejos: 'Optimiza carga de imágenes; paginar secciones.',
   },
   {
@@ -703,7 +853,11 @@ const data_retos = [
       'Backend con rutas para ventas/productos/clientes en MongoDB; frontend para ver crear y listar ventas.',
     lenguajes: ['Node.js', 'Express', 'MongoDB', 'JavaScript'],
     imagen: '/assets_retos/57.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=fgTGADljAeg',
+      'https://expressjs.com/es/',
+      'https://www.mongodb.com/docs/manual/',
+    ],
     consejos: 'Populate en Mongoose; validar datos con JOI.',
   },
   {
@@ -715,7 +869,12 @@ const data_retos = [
       'Frontend con calendario interactivo, backend CRUD para eventos. Permite añadir/editar eventos.',
     lenguajes: ['React', 'Node.js', 'MongoDB'],
     imagen: '/assets_retos/58.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=ngVU74daJ8Y',
+      'https://www.npmjs.com/package/react-big-calendar',
+      'https://date-fns.org/docs/',
+      'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date',
+    ],
     consejos: 'Moment.js o date-fns para manejo fechas; validación de solapamientos.',
   },
   {
@@ -727,7 +886,12 @@ const data_retos = [
       'Frontend curso catálogo, detalles, login; backend con contenido de curso, progreso por usuario.',
     lenguajes: ['React', 'Node.js', 'MongoDB', 'JavaScript'],
     imagen: '/assets_retos/59.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=0DGJgT4Qw9U', // Tutorial MERN cursos
+      'https://www.youtube.com/watch?v=FZgIQUDn8zo', // Full stack LMS React + Node
+      'https://mongoosejs.com/docs/', // Docs Mongo/Mongoose
+      'https://react.dev/learn', // Docs React
+    ],
     consejos: 'Protege rutas; divide contenido por módulos.',
   },
   {
@@ -739,7 +903,12 @@ const data_retos = [
       'Desarrolla un proyecto que combine frontend (React o JS), backend, base de datos, autenticación y despliegue (Heroku/Netlify). Añade README y portafolio.',
     lenguajes: ['React', 'Node.js', 'MongoDB', 'CSS', 'JavaScript'],
     imagen: '/assets_retos/60.png',
-    links: ['#', '#', '#', '#'],
+    links: [
+      'https://www.youtube.com/watch?v=-0exw-9YJBo',
+      'https://www.youtube.com/watch?v=nhBVL41-_Cw',
+      'https://devcenter.heroku.com/articles/deploying-nodejs',
+      'https://www.freecodecamp.org/news/how-to-build-a-portfolio-website-developer/',
+    ],
     consejos: 'Documenta tu proyecto; usa variables de entorno; test básico; despliegue y CI.',
   },
 ];
