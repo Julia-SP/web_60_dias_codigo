@@ -84,7 +84,7 @@ p {
   color: var(--negro);
   letter-spacing: 1px;
   margin-top:30px;
-  padding: 4px 10px;     /* Aumenta un poco el padding para hacer cajas más parejitas */
-  white-space: nowrap;   /* Para evitar que cada etiqueta se parta en varias líneas */
-  flex-shrink: 0;        /* Evita que los items se reduzcan de ancho */
+  padding: 4px 10px;     
+  white-space: nowrap;   
+  flex-shrink: 0;        
 }

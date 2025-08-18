@@ -34,7 +34,6 @@ export default function App() {
              <FichaReto
             numero={retoSeleccionado.numero}
             nombre={retoSeleccionado.nombre}
-        /*     descripcion_corta={retoSeleccionado.descripcion_corta} */
             imagen={retoSeleccionado.imagen}
             explicacion_ejercicio={retoSeleccionado.explicacion_ejercicio}
             consejos={retoSeleccionado.consejos}

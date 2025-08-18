@@ -22,7 +22,7 @@ background-color: var(--blanco);
 }
 
 #logo {
-  margin-right: auto; /* empuja el resto hacia la derecha */
+  margin-right: auto; 
 }
 
 .boton-nav {

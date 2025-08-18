@@ -4,7 +4,7 @@ import Tarjeta_reto from './Tarjeta_reto';
 import { useState } from 'react';
 import data_retos from '../data/data_retos';
 
-const tope = 60; // Puedes ajustar este tope si quieres limitar la cantidad máxima a mostrar
+const tope = 60; 
 
 export default function Section_2({ onAbrirReto }) {
   const [filtro, setFiltro] = useState(null);

@@ -137,6 +137,7 @@ WEB_60_DIAS_CODIGO/
 
 ---
 ## 📷 Wireframes y diseño
+![wires](./public/readme_assets/behance_4.png)
 ---
 ## 🎥 Demo del proyecto
 
@@ -159,8 +160,3 @@ LinkedIn: https://www.linkedin.com/in/juliasubiza/
 
 ---
 
-📌 Conclusión
-
-El Reto 60 Días de Código no solo consolidó mis conocimientos técnicos, sino que también me permitió demostrar mi capacidad de integrar diseño, experiencia de usuario y desarrollo frontend en un producto digital completo y escalable.
-
----
