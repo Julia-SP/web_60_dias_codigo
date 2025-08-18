@@ -9,7 +9,7 @@ export default function NavBar() {
             <img src="./public/LOGO_60_morado.svg" alt="logo" />
           </a>
         </li>
-        <li className="boton-nav"><a href="#container-sec1">En qué consiste</a></li>
+        <li className="boton-nav"><a href="#container-sec1">WTH?</a></li>
         <li className="boton-nav"><a href="#container-sec2">Retos</a></li>
         <li className="boton-nav"><a href="#container-footer">Contacto</a></li>
       </ul>
