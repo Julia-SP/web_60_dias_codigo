@@ -38,7 +38,14 @@
   font-family: 'Poppins', sans-serif;
   min-width: 300px;
 }
-
+h3 {
+  padding-top: 65px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40pt;
+  padding-bottom: 5px;
+  margin: 0;
+}
 /* Contenedor texto + foto */
 .text_foto {
   display: flex;

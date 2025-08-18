@@ -1,5 +1,5 @@
 # 🚀 Reto 60 Días de Código
-
+![Hero del proyecto](./public/readme_assets/behance_1.png)
 Este proyecto es el resultado del **Reto 60 Días de Código** propuesto por **[Matías Cukier]**, y representa una experiencia completa en la que puse en práctica mis conocimientos como **Frontend Developer**, **UX/UI Designer** y **Product Designer**.
 
 La plataforma recopila los **60 retos del desafío**, junto con **recursos y documentación** que facilitan el aprendizaje progresivo.  
@@ -12,15 +12,18 @@ Cada proyecto incrementa su nivel de dificultad y refuerza habilidades clave en:
 
 ---
 
-## 🌟 Más allá del código
+## 🌟 Visión de producto  
+Este proyecto fue concebido y desarrollado con un enfoque **end-to-end**, abarcando todas las fases del ciclo de diseño y desarrollo:  
 
-Trabajé el proyecto con una **visión de producto integral**, abarcando diferentes etapas:
 
 - 🔍 **Investigación e ideación** de la experiencia  
-- 📝 **Prototipado y wireframes** para validar flujos  
-- 🎨 **Diseño de interfaz (UI)** y creación de ilustraciones propias  
+- 📝 **Wireframes y prototipado** para validar flujos  
+- 🎨 **Diseño de interfaz (UI)** e ilustraciones propias  
 - ⚡ **Optimización de la experiencia de usuario (UX)**  
-- 💻 **Implementación técnica** con un stack moderno de desarrollo frontend  
+- 💻 **Implementación técnica** con un stack moderno de frontend  
+
+👉 Gracias a ello, el proyecto refleja la capacidad de **concebir, diseñar y construir un producto digital completo**.  
+
 
 ---
 ## 🛠️ Características principales
@@ -41,7 +44,6 @@ Trabajé el proyecto con una **visión de producto integral**, abarcando diferen
 - [React Router DOM](https://reactrouter.com/)
 - [PropTypes](https://www.npmjs.com/package/prop-types)
 - [ESLint + Prettier](https://eslint.org/)
-- [Nodemon](https://nodemon.io/) (solo desarrollo backend opcional)
 - [Figma](https://www.figma.com/)
 
 
@@ -76,9 +78,9 @@ Explica cómo usar el proyecto después de ejecutarlo. Incluye ejemplos o comand
 ---
 
 ## ✨ Funcionalidades
+- Galería de retos con filtros y paginación
 
-- Lista de funcionalidades principales  
-- …  
+- Visualización en detalle con modal interactivo
 
 ---
 
@@ -134,8 +136,12 @@ WEB_60_DIAS_CODIGO/
 - **Archivos raíz** → Configuraciones, dependencias y documentación del proyecto.
 
 ---
+## 📷 Wireframes y diseño
+---
+## 🎥 Demo del proyecto
 
-
+![video](./public/readme_assets/demo_60.gif)
+---
 ## 📄 Licencia
 
 
@@ -153,13 +159,8 @@ LinkedIn: https://www.linkedin.com/in/juliasubiza/
 
 ---
 
-## 📷 Capturas de pantalla (opcional)
+📌 Conclusión
 
-Incluye imágenes o GIFs mostrando el funcionamiento.
+El Reto 60 Días de Código no solo consolidó mis conocimientos técnicos, sino que también me permitió demostrar mi capacidad de integrar diseño, experiencia de usuario y desarrollo frontend en un producto digital completo y escalable.
 
-## 📌 Conclusión
-
-En conjunto, este proyecto refleja no solo la **aplicación técnica** de un reto práctico, sino también la capacidad de **concebir, diseñar y ejecutar un producto digital de principio a fin**.
-
-![Hero del proyecto](./public/screenshots/hero.png)
 ---

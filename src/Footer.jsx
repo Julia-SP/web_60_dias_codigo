@@ -6,7 +6,12 @@ function Footer() {
       <div className="content">
         <h3>...y si lo terminas?</h3>
         <h4>¡Escríbeme y recibirás una sorpresa!</h4>
-        <button className="CTA">LinkedIn</button>
+      <button
+  className="CTA"
+  onClick={() => window.open('https://www.linkedin.com/in/juliasubiza', '_blank')}
+>
+  LinkedIn
+</button>
 
         <h5 className="bio-footer">
           👋 Hola, soy Julia Subiza, UX/UI Designer & Front-end Developer (en inglés suena mejor,
