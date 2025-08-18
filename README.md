@@ -85,47 +85,46 @@ Explica cómo usar el proyecto después de ejecutarlo. Incluye ejemplos o comand
 ---
 
 ## 📂 Estructura del proyecto
-
 WEB_60_DIAS_CODIGO/
 ├── data/
-│ └── data_retos.js # Array con la información de los 60 retos (nombre, descripción, tecnologías, enlaces, etc.)
+│   └── data_retos.js          # Array con la información de los 60 retos (nombre, descripción, tecnologías, enlaces, etc.)
 │
-├── node_modules/ # Dependencias instaladas con npm (se genera automáticamente)
+├── node_modules/              # Dependencias instaladas con npm (se genera automáticamente)
 │
 ├── public/
-│ ├── assets_retos/ # Imágenes de los retos (capturas, miniaturas)
-│ ├── logos_tools/ # Logos de tecnologías (HTML, CSS, JS, React, Node.js, APIs, etc.)
-│ ├── favicon_60.svg # Favicon principal del proyecto
-│ ├── LOGO_60_blanco.svg # Variaciones del logo del reto
-│ ├── LOGO_60_morado.svg
-│ ├── LOGO_60_negro.svg
+│   ├── assets_retos/          # Imágenes de los retos (capturas, miniaturas)
+│   ├── logos_tools/           # Logos de tecnologías (HTML, CSS, JS, React, Node.js, APIs, etc.)
+│   ├── favicon_60.svg         # Favicon principal del proyecto
+│   ├── LOGO_60_blanco.svg     # Variaciones del logo del reto
+│   ├── LOGO_60_morado.svg
+│   ├── LOGO_60_negro.svg
 │
 ├── src/
-│ ├── App.jsx # Componente raíz de la aplicación
-│ ├── FichaReto.jsx # Componente que muestra la información completa de un reto en modal
-│ ├── Footer.jsx # Pie de página
-│ ├── Hero.jsx # Sección inicial con título, botón y logos
-│ ├── main.jsx # Punto de entrada que monta la app en el DOM
-│ ├── NavBar.jsx # Barra de navegación principal
-│ ├── Section_1.jsx # Sección explicativa "What the hell is this?"
-│ ├── Section_2.jsx # Galería de retos con filtros y paginación
-│ ├── styles_fichaReto.css # Estilos del componente FichaReto
-│ ├── styles_footer.css # Estilos del Footer
-│ ├── styles_hero.css # Estilos de la sección Hero
-│ ├── styles_navBar.css # Estilos de la barra de navegación
-│ ├── styles_Section.css # Estilos de las secciones 1 y 2
-│ ├── styles_tarjeta_reto.css # Estilos de las tarjetas de reto
-│ ├── styles.css # Estilos generales/globales
-│ └── Tarjeta_reto.jsx # Componente individual para mostrar un reto en la galería
+│   ├── App.jsx                # Componente raíz de la aplicación
+│   ├── FichaReto.jsx          # Componente que muestra la información completa de un reto en modal
+│   ├── Footer.jsx             # Pie de página
+│   ├── Hero.jsx               # Sección inicial con título, botón y logos
+│   ├── main.jsx               # Punto de entrada que monta la app en el DOM
+│   ├── NavBar.jsx             # Barra de navegación principal
+│   ├── Section_1.jsx          # Sección explicativa "What the hell is this?"
+│   ├── Section_2.jsx          # Galería de retos con filtros y paginación
+│   ├── styles_fichaReto.css   # Estilos del componente FichaReto
+│   ├── styles_footer.css      # Estilos del Footer
+│   ├── styles_hero.css        # Estilos de la sección Hero
+│   ├── styles_navBar.css      # Estilos de la barra de navegación
+│   ├── styles_Section.css     # Estilos de las secciones 1 y 2
+│   ├── styles_tarjeta_reto.css# Estilos de las tarjetas de reto
+│   ├── styles.css             # Estilos generales/globales
+│   └── Tarjeta_reto.jsx       # Componente individual para mostrar un reto en la galería
 │
-├── .gitignore # Archivos y carpetas que Git debe ignorar
-├── .prettierrc # Configuración de Prettier (formateador de código)
-├── eslint.config.js # Configuración de ESLint para análisis estático del código
-├── index.html # HTML base donde se inyecta la app de React
-├── package-lock.json # Versión exacta de dependencias instaladas
-├── package.json # Configuración del proyecto, scripts y dependencias
-├── README.md # Documentación principal del proyecto
-└── vite.config.js # Configuración de Vite para el bundling y desarrollo
+├── .gitignore                 # Archivos y carpetas que Git debe ignorar
+├── .prettierrc                # Configuración de Prettier (formateador de código)
+├── eslint.config.js           # Configuración de ESLint para análisis estático del código
+├── index.html                 # HTML base donde se inyecta la app de React
+├── package-lock.json          # Versión exacta de dependencias instaladas
+├── package.json               # Configuración del proyecto, scripts y dependencias
+├── README.md                  # Documentación principal del proyecto
+└── vite.config.js             # Configuración de Vite para el bundling y desarrollo
 
 
 ### 📌 Resumen de carpetas clave
