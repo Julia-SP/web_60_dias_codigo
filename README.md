@@ -98,6 +98,13 @@ WEB_60_DIAS_CODIGO/
 │   ├── LOGO_60_blanco.svg     # Variaciones del logo del reto
 │   ├── LOGO_60_morado.svg
 │   ├── LOGO_60_negro.svg
+│   ├── styles_fichaReto.css   # Estilos del componente FichaReto
+│   ├── styles_footer.css      # Estilos del Footer
+│   ├── styles_hero.css        # Estilos de la sección Hero
+│   ├── styles_navBar.css      # Estilos de la barra de navegación
+│   ├── styles_Section.css     # Estilos de las secciones 1 y 2
+│   ├── styles_tarjeta_reto.css# Estilos de las tarjetas de reto
+│   ├── styles.css             # Estilos generales/globales
 │
 ├── src/
 │   ├── App.jsx                # Componente raíz de la aplicación
@@ -108,13 +115,6 @@ WEB_60_DIAS_CODIGO/
 │   ├── NavBar.jsx             # Barra de navegación principal
 │   ├── Section_1.jsx          # Sección explicativa "What the hell is this?"
 │   ├── Section_2.jsx          # Galería de retos con filtros y paginación
-│   ├── styles_fichaReto.css   # Estilos del componente FichaReto
-│   ├── styles_footer.css      # Estilos del Footer
-│   ├── styles_hero.css        # Estilos de la sección Hero
-│   ├── styles_navBar.css      # Estilos de la barra de navegación
-│   ├── styles_Section.css     # Estilos de las secciones 1 y 2
-│   ├── styles_tarjeta_reto.css# Estilos de las tarjetas de reto
-│   ├── styles.css             # Estilos generales/globales
 │   └── Tarjeta_reto.jsx       # Componente individual para mostrar un reto en la galería
 │
 ├── .gitignore                 # Archivos y carpetas que Git debe ignorar

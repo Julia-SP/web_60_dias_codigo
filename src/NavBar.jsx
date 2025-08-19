@@ -6,7 +6,7 @@ export default function NavBar() {
       <ul className='contenido'>
         <li id="logo">
           <a href="#hero">
-            <img src="./public/LOGO_60_morado.svg" alt="logo" />
+            <img src="./LOGO_60_morado.svg" alt="logo" />
           </a>
         </li>
         <li className="boton-nav"><a href="#container-sec1">WTH?</a></li>
