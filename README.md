@@ -156,6 +156,7 @@ Este proyecto es de uso libre bajo las siguientes condiciones:
 Proyecto creado por Julia Subiza (https://github.com/Julia-SP) como parte del Reto 60 Días de Código.
 LinkedIn: https://www.linkedin.com/in/juliasubiza/
 
+Puedes ver más partes del proceso aquí: https://www.behance.net/gallery/232766007/Desarrollo-web-Frontend-React-UXUI
 
 ---
 
