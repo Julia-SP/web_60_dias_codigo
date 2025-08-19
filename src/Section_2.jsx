@@ -1,5 +1,5 @@
-import './styles_Section.css';
-import './styles_fichaReto.css';
+import '/public/styles_Section.css';
+import '/public/styles_fichaReto.css';
 import Tarjeta_reto from './Tarjeta_reto';
 import { useState } from 'react';
 import data_retos from '../data/data_retos';

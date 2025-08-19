@@ -5,7 +5,7 @@ import Section_1 from './Section_1';
 import Section_2 from './Section_2';
 import FichaReto from './FichaReto';
 import { useState } from 'react';
-import './styles.css';
+import '/public/styles.css';
 export default function App() {
   const [retoSeleccionado, setRetoSeleccionado] = useState(null);
   const handleAbrirModal = (reto) => {

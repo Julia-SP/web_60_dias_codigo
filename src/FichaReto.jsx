@@ -1,4 +1,4 @@
-import './styles_fichaReto.css';
+import '/public/styles_fichaReto.css';
 export default function FichaReto(reto) {
     if (!reto) return null;
 

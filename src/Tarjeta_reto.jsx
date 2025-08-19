@@ -1,5 +1,5 @@
-import './styles_tarjeta_reto.css';
-import './styles_tarjeta_reto.css';
+import '/public/styles_tarjeta_reto.css';
+
 import PropTypes from 'prop-types';
 
 export default function Tarjeta_reto({ numero, imagen, nombre, descripcion, lenguajes = [], onClick }) {

@@ -1,5 +1,5 @@
 
-import './styles_hero.css'
+import '/public/styles_hero.css'
 
 export default function Hero() {
   return (
