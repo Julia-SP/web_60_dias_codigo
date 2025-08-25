@@ -6,7 +6,7 @@ import data_retos from '../data/data_retos';
 
 const tope = 60; 
 
-export default function Section_2({ onAbrirReto }) {
+export default function Section_2({onAbrirReto}) {
   const [filtro, setFiltro] = useState(null);
   const [visibleCount, setVisibleCount] = useState(6);
 

@@ -1,49 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
-body{
-    margin:0;
-    margin-top: 0;
-
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+:root {
+  --morado: #AD89FB;
+  --blanco: #FEFDFA;
+  --negro: #060606;
+  --naranja: #FFA545;
 }
-
-.cerrar-modal {
-  align-items: center;
-  padding-top: 20px;
-  padding-right: 20px;
-  color: var(--morado);
-  font-weight: 900;
-  cursor: pointer;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.cerrar-modal:hover {
-    transform: scale(1.2) rotate(15deg);
-  color:var(--negro)
-}
-
-
 
 html {
   scroll-behavior: smooth;
 }
 
-:root {
- --morado :#AD89FB;
- --blanco : #fefdfa;
- --negro : #060606;
- --naranja :#FFA545;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
-
+/* Scroll snap secciones */
 #container-sec1,
 #carrusel,
 .container-footer {
-  height: 100vh; 
+  height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
 }
+
+/* ------------------------
+   MODAL
+------------------------ */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -74,5 +61,13 @@ html {
   background: none;
   border: none;
   font-size: 1.5rem;
+  color: var(--morado);
+  font-weight: 900;
   cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.cerrar-modal:hover {
+  transform: scale(1.2) rotate(15deg);
+  color: var(--negro);
 }

@@ -1,117 +1,126 @@
+/* ------------------------
+   SECTION 1
+------------------------ */
 #container-sec1 {
-  padding-top: 65px;
   background-color: var(--naranja);
-  min-height: 100vh; /* mejor que height fija */
+  min-height: 100vh;
+  padding: 65px 20px 20px;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+
+  /* Animación */
   opacity: 0;
   transform: translateY(40px);
   animation: fadeInHero 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
   animation-delay: 0.2s;
-  padding: 20px;
-  box-sizing: border-box;
 }
+
+
+@media (max-width: 767px) {
+ h3 {
+  padding-top: 6px;
+}
+#textos_2 {
+  padding-bottom: 20px;
+  background-color: var(--naranja);
+
+}
+#container-sec1 {
+  padding-top: none;
+padding-bottom: 20px;
+margin-bottom: 30px;
+}
+}
+
 
 .titulo_w h3 {
   text-align: center;
-    padding-top: 65px;
+  padding-top: 65px;
 }
 
-/* Imagen responsive */
 #harold {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
-/* Texto */
 .textos_2 p {
-  display: flex;
-  flex-direction: column;
-  padding-right: 40px;
   color: var(--negro);
-  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px; /* 📱 Mobile */
   line-height: 1.4;
   text-align: left;
-  font-family: 'Poppins', sans-serif;
-  min-width: 300px;
+  min-width: 280px;
 }
+
 h3 {
-  padding-top: 65px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 40pt;
-  padding-bottom: 5px;
+  font-size: 32px; /* 📱 Mobile */
   margin: 0;
+  padding: 40px 0 10px;
 }
-/* Contenedor texto + foto */
+
 .text_foto {
   display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: flex-start;
+  flex-direction: column; /* 📱 Mobile */
+  align-items: center;
+  text-align: center;
+  gap: 20px;
   width: 100%;
   max-width: 1200px;
 }
 
-
-/* Sección 2 */
+/* ------------------------
+   SECTION 2
+------------------------ */
 .container-sec2 {
   background-color: var(--blanco);
+  font-family: 'Poppins', sans-serif;
   display: flex;
-  justify-content: space-between;
-  height: max-content;
   flex-direction: column;
   align-items: center;
-  padding: 65px 20px 20px 20px;
-  font-family: 'Poppins', sans-serif;
-
+  padding: 65px 20px 20px;
 }
 
-h3 {
-  font-size: 32px;
+.container-sec2 h3 {
+  font-size: 28px; /* 📱 Mobile */
   margin-bottom: 20px;
 }
 
-/* Usas grid para la caja general */
+/* Caja filtros + galería */
 .caja {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px; /* Añadí separación */
-  background-color: var(--blanco);
+  grid-template-columns: 1fr; /* 📱 Mobile */
+  gap: 20px;
 }
 
 /* Filtros */
 .filtros {
-
-  max-width: max-content;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
-  padding: 10px;
-  min-width: 150px;
 }
 
 .filtros button {
   color: var(--morado);
-  padding: 10px;
-  width:150px;
-  border: solid 1px var(--morado);
-  border-radius: 20px;
   background-color: var(--blanco);
   font-weight: bold;
+  padding: 10px;
+  width: 150px;
+  border: solid 1px var(--morado);
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.filtros button:hover {
-  color:var(--blanco);
-  background-color: var(--morado);
-}
-
+.filtros button:hover,
 .filtros button.activo {
   background-color: var(--morado);
   color: var(--blanco);
@@ -119,76 +128,130 @@ h3 {
 
 .filtros .borrar {
   background-color: var(--negro);
-  color:var(--blanco);
+  color: var(--blanco);
   border: none;
 }
 
-/* Galería de tarjetas */
+/* Galería */
 .galeria-retos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
-  padding-bottom: 40px;
-  justify-content:flex-start;
-  z-index: 0;
+  grid-template-columns: 1fr; /* 📱 Mobile */
+  gap: 15px;
+  padding: 10px 0 40px;
+  justify-items: center;
 }
 
-/* Títulos dentro de tarjetas */
+/* ------------------------
+   TARJETAS
+------------------------ */
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
 h6 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0;
-  display: inline-block;
-  vertical-align: middle;
 }
 
-h5 {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0 0 8px 0;
-  line-height: 1.1;
-  letter-spacing: -1px;
-}
-
-/* Lista de elementos dentro de tarjetas */
 .iconos-lenguajes ul {
   list-style: none;
   display: flex;
-  gap: 3px;
-  padding: 0;
+  gap: 5px;
   margin: 0;
+  padding: 0;
 }
 
 .iconos-lenguajes li {
+  background: var(--blanco);
   border: 2px solid var(--negro);
   border-radius: 20px;
   padding: 4px 12px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
-  background: var(--blanco);
   color: var(--negro);
   letter-spacing: 1px;
 }
 
-/* Botón "ver más" / "cargar más" / "mostrar menos" */
 .ver-mas {
   display: block;
   width: fit-content;
   background-color: var(--blanco);
+  border: 2px solid var(--negro);
   border-radius: 16px;
   color: var(--negro);
-  border: solid var(--negro) 2px;
+  font-size: 14px;
   padding: 5px 15px;
   cursor: pointer;
-  font-size: 14px;
-  transition:
-    transform 0.2s ease,
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .ver-mas:hover {
   background: var(--negro);
   color: var(--blanco);
+}
+
+/* ------------------------
+   MEDIA QUERIES
+------------------------ */
+
+/* 📲 Tablet (≥768px) */
+@media (min-width: 768px) {
+  .text_foto {
+    flex-direction: row;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .textos_2 p {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  .galeria-retos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .caja {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+/* 💻 Desktop (≥1200px) */
+@media (min-width: 1200px) {
+  .textos_2 p {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  .galeria-retos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 📱 Mobile: ajustes solo para pantallas menores a 768px */
+@media (max-width: 767px) {
+  .filtros button {
+    color: var(--morado);
+    background-color: var(--blanco);
+    font-weight: 600;
+    padding: 6px 6px;   /* más compacto */
+    font-size: 12px;     /* más pequeño */
+    width: auto;         /* ya no fijo */
+    min-width: 10px;    /* ancho mínimo */
+    border: 1px solid var(--morado);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 }

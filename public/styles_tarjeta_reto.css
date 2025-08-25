@@ -88,3 +88,30 @@ p {
   white-space: nowrap;   
   flex-shrink: 0;        
 }
+/* ====== 📱 Mobile First ====== */
+.tarjeta {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.foto-tarjeta {
+  width: 100%;
+  height: auto;
+}
+
+/* ====== 📲 Tablet (≥768px) ====== */
+@media (min-width: 768px) {
+  .tarjeta {
+    width: 280px;
+    height: 380px;
+  }
+}
+
+/* ====== 💻 Desktop (≥1200px) ====== */
+@media (min-width: 1200px) {
+  .tarjeta {
+    width: 300px;
+    height: 400px;
+  }
+}
