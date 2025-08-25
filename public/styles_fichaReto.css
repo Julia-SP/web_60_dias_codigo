@@ -3,13 +3,12 @@
   grid-template-columns: 1fr 2fr;
   gap: 24px;
   max-width: 960px;
- 
   margin-top: 40px;
   background-color: white;
   border-radius: 8px;
-  padding: 2px;
+  padding: 16px;
   z-index: 1000;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .iz-column {
@@ -17,31 +16,25 @@
   flex-direction: column;
 }
 
-.image {
+.iz-column img {
   background-color: #dbe3dd;
   border: 1px solid #ccc;
+  border-radius: 8px;
   aspect-ratio: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 14px;
-  color: #555;
+  object-fit: cover;
+  margin-bottom: 12px;
 }
-
-
 
 .seccion-titulo {
   font-weight: bold;
   font-size: 14px;
-
+  margin-bottom: 6px;
 }
 
 .lista-recursos {
   list-style-type: none;
-  text-decoration: none;
   padding-left: 0px;
-  margin: 0;
+  margin: 0 0 12px 0;
   font-size: 14px;
   color: #333;
 }
@@ -56,13 +49,13 @@
   flex-direction: column;
 }
 
-.numbero {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 8px;
+.numero {
+  font-size: 30pt;
+  color: var(--naranja);
+  margin: 0 0 12px 0;
 }
 
-.titlulo-reto {
+.titulo-reto {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 12px;
@@ -72,54 +65,51 @@
   font-size: 14px;
   color: #444;
   line-height: 1.5;
+  margin-bottom: 12px;
 }
 
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
+.explicacion-titulo {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
 }
 
-.modal-contenido {
-  background: #fff;
-  border-radius: 8px;
-  max-width: 600px;
-  max-height: 80vh;
-  overflow-y: auto;
-  padding: 20px;
-  position: relative;
+.explicacion-texto {
+  font-size: 14px;
+  color: #333;
 }
 
-.cerrar-modal {
-  position: absolute;
-  top: 12px;
-  right: 16px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+/* ------------------------
+   MEDIA QUERIES
+------------------------ */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .container-ficha {
+    grid-template-columns: 1fr;
+    padding: 12px;
+  }
 }
 
+/* Móvil */
+@media (max-width: 768px) {
+  .container-ficha {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 8px;
+  }
 
-a{
-  text-decoration: none;
-  color:var(--morado);
-  font-family: 'poppins';
-}
+  .iz-column img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+  }
 
-a:hover{
-  font-weight: 700;
-}
+  .titulo-reto {
+    font-size: 20px;
+  }
 
-.numero{
-  font-size: 30pt;
-  color: var(--naranja)
+  .numero {
+    font-size: 22pt;
+  }
 }

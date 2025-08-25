@@ -23,8 +23,6 @@ body{
   color:var(--negro)
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -76,3 +74,4 @@ html {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
